@@ -218,9 +218,9 @@ class Ui_AddBundleDetails(object):
         self.retranslateUi(AddBundleDetails)
 
         self.deBundleSlipDate.setDateTime(QtCore.QDateTime.currentDateTime())
-        icon = QIcon()
-        icon.addFile("data/icon.png", QSize(), QIcon.Normal, QIcon.Off)
-        AddBundleDetails.setWindowIcon(icon)
+        # icon = QIcon()
+        # icon.addFile("data/icon.png", QSize(), QIcon.Normal, QIcon.Off)
+        # AddBundleDetails.setWindowIcon(icon)
         header = self.twBundleDetails.horizontalHeader()
         header.setSectionResizeMode(0, QtWidgets.QHeaderView.ResizeToContents)
         header.setSectionResizeMode(1, QtWidgets.QHeaderView.ResizeToContents)

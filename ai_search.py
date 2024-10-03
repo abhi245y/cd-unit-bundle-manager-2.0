@@ -1,8 +1,38 @@
 from groq import Groq
 import yaml
+import os
+import sys
 
-with open("config.yaml", "r") as file:
+
+def get_config_directory():
+    if getattr(sys, "frozen", False):
+        return os.path.dirname(sys.executable)
+    else:
+        return os.path.dirname(os.path.abspath(__file__))
+
+
+config_directory = get_config_directory()
+config_file_path = os.path.join(config_directory, "config.yaml")
+
+if not os.path.exists(config_file_path):
+    default_config = {
+        "db_username": "root",
+        "db_pass": "password",
+        "db_link": "localhost:3306",
+        "db_name": "database",
+        "GROQ_API_KEY": "API_KEY",
+    }
+    with open(config_file_path, "w") as file:
+        yaml.dump(default_config, file, indent=4)
+    print(f"Created new config file at: {config_file_path}")
+    print(
+        "Please edit this file with your actual configuration before running the application again."
+    )
+    sys.exit(0)
+
+with open(config_file_path, "r") as file:
     configurations = yaml.safe_load(file)
+
 
 def generate_sql_query(user_input):
     client = Groq(api_key=configurations["GROQ_API_KEY"])
@@ -148,12 +178,9 @@ Response Guidelines:
       - "arts and science colleges" or "arts colleges" should map to college_type = 'ARTS_AND_SCIENCE'
       - "engineering colleges" or "Btech Colleges" should map to college_type = 'ENGINEERING'
       - "law colleges" should map to college_type = 'LAW'
-      And so on for other college types."""
-},
-        {
-            "role": "user",
-            "content": user_input
-        }
+      And so on for other college types.""",
+        },
+        {"role": "user", "content": user_input},
     ]
 
     completion = client.chat.completions.create(
@@ -175,8 +202,9 @@ Response Guidelines:
 
     print("##### Generated SQL Query:")
     print(sql_query)
-    print('#####')
+    print("#####")
     return sql_query
+
 
 # def main():
 #     user_input = 'Can you show me all bundles received from all colleges in local routes. Also show me the colleges name not the college code'

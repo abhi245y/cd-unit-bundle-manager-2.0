@@ -14,14 +14,47 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 import enum
 import yaml
+import os
+import sys
 
-with open("config.yaml", "r") as file:
+
+def get_config_directory():
+    if getattr(sys, "frozen", False):
+        return os.path.dirname(sys.executable)
+    else:
+        return os.path.dirname(os.path.abspath(__file__))
+
+
+config_directory = get_config_directory()
+config_file_path = os.path.join(config_directory, "config.yaml")
+
+if not os.path.exists(config_file_path):
+    default_config = {
+        "db_username": "root",
+        "db_pass": "password",
+        "db_link": "localhost:3306",
+        "db_name": "database",
+        "GROQ_API_KEY": "API_KEY",
+    }
+    with open(config_file_path, "w") as file:
+        yaml.dump(default_config, file, indent=4)
+    print(f"Created new config file at: {config_file_path}")
+    print(
+        "Please edit this file with your actual configuration before running the application again."
+    )
+    sys.exit(0)
+
+with open(config_file_path, "r") as file:
     configurations = yaml.safe_load(file)
+
+print(f"Config file path: {config_file_path}")
+print(f"Configurations: {configurations}")
 
 db_string = f"mysql://{configurations['db_username']}:{configurations['db_pass']}@{configurations['db_link']}/{configurations['db_name']}"
 engine = create_engine(db_string)
 
 Base = declarative_base()
+
 
 class CollegeType(enum.Enum):
     ARTS_AND_SCIENCE = "Art and Science"
@@ -95,7 +128,7 @@ class OtherData(Base):
 class Bundle(Base):
     __tablename__ = "bundles"
 
-    id = Column(String(42),nullable=False, primary_key=True)
+    id = Column(String(42), nullable=False, primary_key=True)
     date_of_entry = Column(Date, nullable=False)
     qp_series = Column(String(1), nullable=False)
     qp_code = Column(String(100), nullable=False)
@@ -114,6 +147,7 @@ class Bundle(Base):
             f"messenger_name='{self.messenger_name}', is_nill='{self.is_nill}, ')"
             f"messenger_name='{self.messenger_name}, received_date='{self.received_date}, remarks='{self.remarks}'>"
         )
+
 
 # Create the tables in the database
 Base.metadata.create_all(engine)

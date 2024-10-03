@@ -6,7 +6,6 @@ from BundleBrowserUI import Ui_BundleBrowser  # Import the generated UI class
 from db_operations import DbOps
 from pprint import pprint
 from dateutil import parser
-from PyQt6.QtGui import QIcon
 
 
 class BundleBrowserApp(QtWidgets.QMainWindow):
@@ -27,7 +26,9 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         self.ui.tableWidget.setColumnHidden(8, True)
 
         collegeTableHeader = self.ui.colegeTableWidget.horizontalHeader()
-        collegeTableHeader.setSectionResizeMode(0, QtWidgets.QHeaderView.ResizeMode.Stretch)
+        collegeTableHeader.setSectionResizeMode(
+            0, QtWidgets.QHeaderView.ResizeMode.Stretch
+        )
 
         mainTableHeader = self.ui.tableWidget.horizontalHeader()
         mainTableHeader.setSectionResizeMode(
@@ -48,7 +49,9 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         mainTableHeader.setSectionResizeMode(
             5, QtWidgets.QHeaderView.ResizeMode.ResizeToContents
         )
-        mainTableHeader.setSectionResizeMode(6, QtWidgets.QHeaderView.ResizeMode.Stretch)
+        mainTableHeader.setSectionResizeMode(
+            6, QtWidgets.QHeaderView.ResizeMode.Stretch
+        )
         mainTableHeader.setSectionResizeMode(
             7, QtWidgets.QHeaderView.ResizeMode.ResizeToContents
         )
@@ -101,7 +104,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
     #     selected_messenger = self.ui.messengerComboBox.currentText()
     #     selected_college = self.ui.collegeComboBox.currentText()
 
-        # Example of updating the database with collected data
+    # Example of updating the database with collected data
 
     # def closeEvent(self, event):
     #     # Close the database connection when the window is closed
@@ -112,7 +115,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         self.ui.tableWidget.blockSignals(True)
         self.ui.tableWidget.setRowCount(0)
         for data in datas:
-            id=data.id
+            id = data.id
             qp_series = data.qp_series
             qp_code = data.qp_code
             messenger = data.messenger_name
@@ -149,9 +152,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             self.ui.tableWidget.setItem(
                 rowPosition, 7, QtWidgets.QTableWidgetItem(remarks)
             )
-            self.ui.tableWidget.setItem(
-                rowPosition, 8, QtWidgets.QTableWidgetItem(id)
-            )
+            self.ui.tableWidget.setItem(rowPosition, 8, QtWidgets.QTableWidgetItem(id))
         self.ui.tableWidget.blockSignals(False)
 
     def showHideAdvSeach(self):
@@ -170,11 +171,18 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         entryDate = self.ui.entryDateEdit.date().toPyDate()
         received_date = self.ui.receviedDateEdit.date().toPyDate()
         print(self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked())
-        if not self.ui.receviedDateRB.isChecked() and not self.ui.entryDateRB.isChecked():
+        if (
+            not self.ui.receviedDateRB.isChecked()
+            and not self.ui.entryDateRB.isChecked()
+        ):
             print("Select at least one date")
         else:
-            result = self.db.searchBundles(entryDate,received_date,
-                self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked())
+            result = self.db.searchBundles(
+                entryDate,
+                received_date,
+                self.ui.receviedDateRB.isChecked(),
+                self.ui.entryDateRB.isChecked(),
+            )
             self.populateTable(result)
 
     def on_route_selected(self):
@@ -200,7 +208,9 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             self.ui.qpCodeLineEdit.text() if self.ui.qpCodeLineEdit.text() else None
         )
         college_code = (
-            self.db.getCollegeByName(self.ui.colegeTableWidget.currentItem().text()).code
+            self.db.getCollegeByName(
+                self.ui.colegeTableWidget.currentItem().text()
+            ).code
             if self.ui.colegeTableWidget.currentItem()
             else None
         )
@@ -216,38 +226,38 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
                 date_of_entry=date_of_entry,
                 received_date=received_date,
                 received_date_check=self.ui.receviedDateRB.isChecked(),
-                date_of_entry_check=self.ui.entryDateRB.isChecked()
+                date_of_entry_check=self.ui.entryDateRB.isChecked(),
             )
         )
 
     def track_changes(self, item):
-       row = item.row()
-       column = item.column()
-       new_value = item.text()
+        row = item.row()
+        column = item.column()
+        new_value = item.text()
 
-       # Get the ID for the row, assuming ID is in the last column (column index 8)
-       bundle_id = self.ui.tableWidget.item(row, 8).text()
-       if bundle_id:
-           # Track the change in the form of {row: {column: value}}
+        # Get the ID for the row, assuming ID is in the last column (column index 8)
+        bundle_id = self.ui.tableWidget.item(row, 8).text()
+        if bundle_id:
+            # Track the change in the form of {row: {column: value}}
             if bundle_id not in self.changed_items:
-               self.changed_items[bundle_id] = {}
+                self.changed_items[bundle_id] = {}
 
             if column == 0 or column == 4:
                 parsed_date = parser.parse(new_value)
-                formatted_date = parsed_date.strftime('%Y-%m-%d')
+                formatted_date = parsed_date.strftime("%Y-%m-%d")
                 self.changed_items[bundle_id][column] = formatted_date
             else:
                 self.changed_items[bundle_id][column] = new_value
 
-       pprint(self.changed_items)
+        pprint(self.changed_items)
 
     def update_data(self):
         confirmation = QMessageBox.question(
-                self,
-                "Confirmation",
-                "Are you sure you want to save the changes?",
-                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-            )
+            self,
+            "Confirmation",
+            "Are you sure you want to save the changes?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+        )
 
         if confirmation == QMessageBox.StandardButton.Yes:
             self.db.save_changes_to_db(new_data=self.changed_items)
@@ -257,25 +267,31 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         selected_items = self.ui.tableWidget.selectedItems()
 
         if not selected_items:
-            QtWidgets.QMessageBox.warning(self, "No Selection", "Please select rows to delete.")
+            QtWidgets.QMessageBox.warning(
+                self, "No Selection", "Please select rows to delete."
+            )
             return
         selected_rows = set(item.row() for item in selected_items)
         confirmation = QtWidgets.QMessageBox.question(
-                self,
-                "Confirmation",
-                f"Are you sure you want to delete {len(selected_rows)} Bundle(s)?",
-                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-            )
+            self,
+            "Confirmation",
+            f"Are you sure you want to delete {len(selected_rows)} Bundle(s)?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+        )
         try:
             for row in sorted(selected_rows, reverse=True):
                 bundle_id = self.ui.tableWidget.item(row, 8).text()
                 self.db.delete_bundle(bundle_id=bundle_id)
                 self.ui.tableWidget.removeRow(row)
         except Exception as e:
-            QtWidgets.QMessageBox.critical(self, "Error", f"Failed to delete record: {str(e)}")
+            QtWidgets.QMessageBox.critical(
+                self, "Error", f"Failed to delete record: {str(e)}"
+            )
             return
 
-        QtWidgets.QMessageBox.information(self, "Success", f"{len(selected_rows)} row(s) deleted successfully.")
+        QtWidgets.QMessageBox.information(
+            self, "Success", f"{len(selected_rows)} row(s) deleted successfully."
+        )
 
     def toggle_id_column(self):
         """
@@ -293,7 +309,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
     def attemptAISearch(self):
         user_query = self.ui.searchLineEdit.text()
         print(user_query)
-        if user_query is not None or user_query != '':
+        if user_query is not None or user_query != "":
             self.ui.aiSearchPB.setEnabled(False)
             self.ui.aiSearchPB.setText("Searching...")
             QtCore.QCoreApplication.processEvents()
@@ -305,6 +321,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
 
             self.ui.aiSearchPB.setEnabled(True)
             self.ui.aiSearchPB.setText("AI Search")
+
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

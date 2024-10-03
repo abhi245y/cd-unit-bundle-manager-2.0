@@ -7,6 +7,9 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
+import os
+
+basedir = os.path.dirname(__file__)
 
 
 class Ui_BundleBrowser(object):
@@ -14,7 +17,11 @@ class Ui_BundleBrowser(object):
         BundleBrowser.setObjectName("BundleBrowser")
         BundleBrowser.resize(1194, 587)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("search.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(
+            QtGui.QPixmap(os.path.join(basedir, "search.png")),
+            QtGui.QIcon.Mode.Normal,
+            QtGui.QIcon.State.Off,
+        )
         BundleBrowser.setWindowIcon(icon)
         BundleBrowser.setTabShape(QtWidgets.QTabWidget.TabShape.Rounded)
         self.centralwidget = QtWidgets.QWidget(BundleBrowser)
@@ -31,24 +38,36 @@ class Ui_BundleBrowser(object):
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.groupBox_2)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.receviedDateEdit = QtWidgets.QDateEdit(self.groupBox_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.receviedDateEdit.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.receviedDateEdit.sizePolicy().hasHeightForWidth()
+        )
         self.receviedDateEdit.setSizePolicy(sizePolicy)
-        self.receviedDateEdit.setMaximumDateTime(QtCore.QDateTime(QtCore.QDate(9999, 12, 31), QtCore.QTime(23, 59, 59)))
+        self.receviedDateEdit.setMaximumDateTime(
+            QtCore.QDateTime(QtCore.QDate(9999, 12, 31), QtCore.QTime(23, 59, 59))
+        )
         self.receviedDateEdit.setMinimumDate(QtCore.QDate(1752, 9, 14))
         self.receviedDateEdit.setCalendarPopup(True)
         self.receviedDateEdit.setObjectName("receviedDateEdit")
         self.verticalLayout_4.addWidget(self.receviedDateEdit)
         self.receviedDateRB = QtWidgets.QRadioButton(self.groupBox_2)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.receviedDateRB.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.receviedDateRB.sizePolicy().hasHeightForWidth()
+        )
         self.receviedDateRB.setSizePolicy(sizePolicy)
         self.receviedDateRB.setMinimumSize(QtCore.QSize(126, 0))
-        self.receviedDateRB.setContextMenuPolicy(QtCore.Qt.ContextMenuPolicy.DefaultContextMenu)
+        self.receviedDateRB.setContextMenuPolicy(
+            QtCore.Qt.ContextMenuPolicy.DefaultContextMenu
+        )
         self.receviedDateRB.setObjectName("receviedDateRB")
         self.verticalLayout_4.addWidget(self.receviedDateRB)
         self.dateEditHL.addWidget(self.groupBox_2)
@@ -106,34 +125,47 @@ class Ui_BundleBrowser(object):
         self.horizontalLayout_3.setContentsMargins(-1, 0, -1, -1)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.searchLineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Ignored)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Ignored
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.searchLineEdit.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.searchLineEdit.sizePolicy().hasHeightForWidth()
+        )
         self.searchLineEdit.setSizePolicy(sizePolicy)
         self.searchLineEdit.setMinimumSize(QtCore.QSize(0, 0))
         self.searchLineEdit.setObjectName("searchLineEdit")
         self.horizontalLayout_3.addWidget(self.searchLineEdit)
         self.aiSearchPB = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Preferred)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Preferred
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.aiSearchPB.sizePolicy().hasHeightForWidth())
         self.aiSearchPB.setSizePolicy(sizePolicy)
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("loupe.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(
+            QtGui.QPixmap("loupe.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off
+        )
         self.aiSearchPB.setIcon(icon1)
         self.aiSearchPB.setIconSize(QtCore.QSize(19, 19))
         self.aiSearchPB.setObjectName("aiSearchPB")
         self.horizontalLayout_3.addWidget(self.aiSearchPB)
         self.MainvVL.addLayout(self.horizontalLayout_3)
         self.tableWidget = QtWidgets.QTableWidget(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Expanding,
+            QtWidgets.QSizePolicy.Policy.Expanding,
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.tableWidget.sizePolicy().hasHeightForWidth())
         self.tableWidget.setSizePolicy(sizePolicy)
-        self.tableWidget.setSizeAdjustPolicy(QtWidgets.QAbstractScrollArea.SizeAdjustPolicy.AdjustToContents)
+        self.tableWidget.setSizeAdjustPolicy(
+            QtWidgets.QAbstractScrollArea.SizeAdjustPolicy.AdjustToContents
+        )
         self.tableWidget.setObjectName("tableWidget")
         self.tableWidget.setColumnCount(9)
         self.tableWidget.setRowCount(0)
@@ -161,10 +193,14 @@ class Ui_BundleBrowser(object):
         self.advancedSearchHL.setContentsMargins(10, -1, -1, -1)
         self.advancedSearchHL.setObjectName("advancedSearchHL")
         self.advancedSearchGroupBox = QtWidgets.QGroupBox(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Expanding
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.advancedSearchGroupBox.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.advancedSearchGroupBox.sizePolicy().hasHeightForWidth()
+        )
         self.advancedSearchGroupBox.setSizePolicy(sizePolicy)
         self.advancedSearchGroupBox.setObjectName("advancedSearchGroupBox")
         self.verticalLayout_6 = QtWidgets.QVBoxLayout(self.advancedSearchGroupBox)
@@ -177,7 +213,9 @@ class Ui_BundleBrowser(object):
         self.verticalLayout_7 = QtWidgets.QVBoxLayout(self.groupBox_6)
         self.verticalLayout_7.setObjectName("verticalLayout_7")
         self.messengersCB = QtWidgets.QComboBox(self.groupBox_6)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.messengersCB.sizePolicy().hasHeightForWidth())
@@ -193,10 +231,14 @@ class Ui_BundleBrowser(object):
         self.verticalLayout_10 = QtWidgets.QVBoxLayout(self.groupBox_7)
         self.verticalLayout_10.setObjectName("verticalLayout_10")
         self.qpCodeLineEdit = QtWidgets.QLineEdit(self.groupBox_7)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Fixed
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.qpCodeLineEdit.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.qpCodeLineEdit.sizePolicy().hasHeightForWidth()
+        )
         self.qpCodeLineEdit.setSizePolicy(sizePolicy)
         self.qpCodeLineEdit.setMinimumSize(QtCore.QSize(70, 0))
         self.qpCodeLineEdit.setObjectName("qpCodeLineEdit")
@@ -219,12 +261,19 @@ class Ui_BundleBrowser(object):
         self.verticalLayout_8 = QtWidgets.QVBoxLayout(self.groupBox_5)
         self.verticalLayout_8.setObjectName("verticalLayout_8")
         self.colegeTableWidget = QtWidgets.QTableWidget(self.groupBox_5)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Preferred, QtWidgets.QSizePolicy.Policy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Policy.Preferred,
+            QtWidgets.QSizePolicy.Policy.Expanding,
+        )
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.colegeTableWidget.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.colegeTableWidget.sizePolicy().hasHeightForWidth()
+        )
         self.colegeTableWidget.setSizePolicy(sizePolicy)
-        self.colegeTableWidget.setSizeAdjustPolicy(QtWidgets.QAbstractScrollArea.SizeAdjustPolicy.AdjustToContents)
+        self.colegeTableWidget.setSizeAdjustPolicy(
+            QtWidgets.QAbstractScrollArea.SizeAdjustPolicy.AdjustToContents
+        )
         self.colegeTableWidget.setObjectName("colegeTableWidget")
         self.colegeTableWidget.setColumnCount(1)
         self.colegeTableWidget.setRowCount(0)
@@ -279,10 +328,14 @@ class Ui_BundleBrowser(object):
         self.searchPB.setText(_translate("BundleBrowser", "Search"))
         self.updatePB.setText(_translate("BundleBrowser", "Update "))
         self.deletePB.setText(_translate("BundleBrowser", "Delete Selection"))
-        self.showAdvancedPB.setText(_translate("BundleBrowser", "Show Advanced Search =>"))
+        self.showAdvancedPB.setText(
+            _translate("BundleBrowser", "Show Advanced Search =>")
+        )
         self.matchAnyFilterPB.setText(_translate("BundleBrowser", "Match Any "))
         self.matchAllFilterPB.setText(_translate("BundleBrowser", "Match All"))
-        self.searchLineEdit.setPlaceholderText(_translate("BundleBrowser", "Enter details to serch the table below"))
+        self.searchLineEdit.setPlaceholderText(
+            _translate("BundleBrowser", "Enter details to serch the table below")
+        )
         self.aiSearchPB.setText(_translate("BundleBrowser", "AI Search"))
         item = self.tableWidget.horizontalHeaderItem(0)
         item.setText(_translate("BundleBrowser", "Received Date"))
@@ -302,12 +355,18 @@ class Ui_BundleBrowser(object):
         item.setText(_translate("BundleBrowser", "Remarks"))
         item = self.tableWidget.horizontalHeaderItem(8)
         item.setText(_translate("BundleBrowser", "ID"))
-        self.advancedSearchGroupBox.setTitle(_translate("BundleBrowser", "Advanced Search"))
+        self.advancedSearchGroupBox.setTitle(
+            _translate("BundleBrowser", "Advanced Search")
+        )
         self.groupBox_6.setTitle(_translate("BundleBrowser", "Messenger"))
-        self.messengersCB.setPlaceholderText(_translate("BundleBrowser", "Select Messenger"))
+        self.messengersCB.setPlaceholderText(
+            _translate("BundleBrowser", "Select Messenger")
+        )
         self.matchMessengerRB.setText(_translate("BundleBrowser", "Should Match"))
         self.groupBox_7.setTitle(_translate("BundleBrowser", "QP Code"))
-        self.qpCodeLineEdit.setPlaceholderText(_translate("BundleBrowser", "Enter QP Code"))
+        self.qpCodeLineEdit.setPlaceholderText(
+            _translate("BundleBrowser", "Enter QP Code")
+        )
         self.matchQPRB.setText(_translate("BundleBrowser", "Should Match"))
         self.groupBox_4.setTitle(_translate("BundleBrowser", "Route"))
         self.routeCB.setPlaceholderText(_translate("BundleBrowser", "Select A Route"))
