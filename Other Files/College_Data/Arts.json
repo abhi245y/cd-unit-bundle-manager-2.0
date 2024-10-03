@@ -1,0 +1,6095 @@
+{
+  "college_type": "Arts and Science",
+  "colleges": [
+    {
+      "name": "All Saint's College Chakai Thiruvananthapuram",
+      "code": 100,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Environmental Science",
+          "code": 615
+        },
+        {
+          "name": "MSc Physics with Specialisation in Space Physics",
+          "code": 631
+        }
+      ]
+    },
+    {
+      "name": "Bishop Moore College Mavelikara Alappuzha",
+      "code": 101,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics (Behavioral Economics and Data Science)",
+          "code": 551
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Analytical Chemistry",
+          "code": 636
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        }
+      ]
+    },
+    {
+      "name": "Christian College Chengannur Alappuzha",
+      "code": 102,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA Logistics",
+          "code": 196
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Analytical Chemistry",
+          "code": 636
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "Christian College Kattakada Thiruvananthapuram",
+      "code": 103,
+      "courses": [
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Statistics",
+          "code": 225
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        }
+      ]
+    },
+    {
+      "name": "Kumbalathu Sankupillai Memorial Devaswom Board College Sasthamcottah\n      Kollam",
+      "code": 104,
+      "courses": [
+        {
+          "name": "BA Sanskrit Special",
+          "code": 111
+        },
+        {
+          "name": "BA Sanskrit Special - Vedanta",
+          "code": 112
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Statistics",
+          "code": 225
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Polymer Chemistry",
+          "code": 239
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B.Voc Software Development",
+          "code": 351
+        },
+        {
+          "name": "B.Voc Food Processing and Management",
+          "code": 356
+        },
+        {
+          "name": "MA Sanskrit Special",
+          "code": 511
+        },
+        {
+          "name": "MA Sanskrit Special - Vedanta",
+          "code": 512
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics with Specialisation in Nano Science",
+          "code": 632
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        }
+      ]
+    },
+    {
+      "name": "F.M.N College Kollam",
+      "code": 105,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Psychology",
+          "code": 157
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Polymer Chemistry",
+          "code": 239
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MA Psychology",
+          "code": 565
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Food and Dairy Biotechnology",
+          "code": 602
+        },
+        {
+          "name": "MSc Psychology",
+          "code": 606
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "Govt. Arts College Thiruvananthapuram",
+      "code": 106,
+      "courses": [
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Statistics",
+          "code": 625
+        },
+        {
+          "name": "MSc Analytical Chemistry",
+          "code": 636
+        },
+        {
+          "name": "MSc Bio-Technology",
+          "code": 659
+        }
+      ]
+    },
+    {
+      "name": "Govt. College For Women Vazhuthacadu Thiruvananthapuram",
+      "code": 107,
+      "courses": [
+        {
+          "name": "BA Philosophy",
+          "code": 105
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Psychology",
+          "code": 157
+        },
+        {
+          "name": "BA Music",
+          "code": 158
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Statistics",
+          "code": 225
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Bio-chemistry And Industrial Microbiology",
+          "code": 248
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Home Science",
+          "code": 255
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BA Honours in English Language and Literature",
+          "code": 310
+        },
+        {
+          "name": "MA Philosophy",
+          "code": 505
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA Hindi Language & Literature",
+          "code": 525
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MA Business Economics",
+          "code": 555
+        },
+        {
+          "name": "MA Psychology",
+          "code": 565
+        },
+        {
+          "name": "MA Music",
+          "code": 575
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Psychology",
+          "code": 606
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        },
+        {
+          "name": "MSc Home Science(Family Resource Management)",
+          "code": 655
+        },
+        {
+          "name": "MSc Home Science(Extension Education)",
+          "code": 656
+        },
+        {
+          "name": "MSc Home Science(Food & Nutrition)",
+          "code": 657
+        }
+      ]
+    },
+    {
+      "name": "Govt. College Kariavattom Thiruvananthapuram",
+      "code": 108,
+      "courses": [
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Statistics",
+          "code": 225
+        },
+        {
+          "name": "B Sc Biochemistry",
+          "code": 238
+        },
+        {
+          "name": "B Sc Chemistry And Industrial Chemistry",
+          "code": 241
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "B Sc Bio-Technology",
+          "code": 350
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        }
+      ]
+    },
+    {
+      "name": "Govt. Sanskrit College Thiruvananthapuram",
+      "code": 109,
+      "courses": [
+        {
+          "name": "BA Sanskrit Special",
+          "code": 111
+        },
+        {
+          "name": "BA Sanskrit Special - Vedanta",
+          "code": 112
+        },
+        {
+          "name": "BA Sanskrit Special - Nyaya",
+          "code": 113
+        },
+        {
+          "name": "BA Sanskrit Special - Vyakarana",
+          "code": 114
+        },
+        {
+          "name": "BA Sanskrit Special - Sahitya",
+          "code": 117
+        },
+        {
+          "name": "BA Sanskrit Special - Jyothisha",
+          "code": 118
+        },
+        {
+          "name": "MA Sanskrit Special",
+          "code": 511
+        },
+        {
+          "name": "MA Sanskrit Special - Vedanta",
+          "code": 512
+        },
+        {
+          "name": "MA Sanskrit Special - Nyaya",
+          "code": 513
+        },
+        {
+          "name": "MA Sanskrit Special - Vyakarana",
+          "code": 514
+        },
+        {
+          "name": "MA Sanskrit Special - Sahitya",
+          "code": 517
+        },
+        {
+          "name": "MA Sanskrit Special - Jyothisha",
+          "code": 518
+        }
+      ]
+    },
+    {
+      "name": "Govt. College Attingal Thiruvananthapuram",
+      "code": 110,
+      "courses": [
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Polymer Chemistry",
+          "code": 239
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Polymer Chemistry",
+          "code": 639
+        }
+      ]
+    },
+    {
+      "name": "Baby John Memorial Govt. College Chavara Kollam",
+      "code": 111,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Zoology with Specialisation in Biosystematics and Biodiversity",
+          "code": 649
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "Govt. College Nedumangad Thiruvananthapuram",
+      "code": 112,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Iqbal College Peringamala Thiruvananthapuram",
+      "code": 113,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics and Media Studies",
+          "code": 151
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        }
+      ]
+    },
+    {
+      "name": "Kunjukrishna Nadar Memorial Govt. Arts & Science College Kanjiramkulam\n      Thiruvananthapuram",
+      "code": 114,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Sociology",
+          "code": 156
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics with Mathematics and Machine Learning",
+          "code": 231
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA Sociology",
+          "code": 560
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Loyola College of Social Sciences Sreekariyam Thiruvananthapuram",
+      "code": 115,
+      "courses": [
+        {
+          "name": "MA Sociology",
+          "code": 560
+        },
+        {
+          "name": "MA Human Resource Management",
+          "code": 584
+        },
+        {
+          "name": "MA Personal Management",
+          "code": 585
+        },
+        {
+          "name": "MSc Counselling Psychology",
+          "code": 604
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        },
+        {
+          "name": "MSW Disaster Management",
+          "code": 916
+        }
+      ]
+    },
+    {
+      "name": "M M N S S College Kottiyam Kollam",
+      "code": 116,
+      "courses": [
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Polymer Chemistry",
+          "code": 239
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        }
+      ]
+    },
+    {
+      "name": "Milad E-Sherif Memorial College Kayamkulam Alappuzha",
+      "code": 117,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA Arabic Language & Literature",
+          "code": 135
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Statistics",
+          "code": 225
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Bio-Technology",
+          "code": 350
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Arabic Language & Literature",
+          "code": 535
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Analytical Chemistry",
+          "code": 636
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "Mahatma Gandhi College Kesavadasapuram Thiruvananthapuram",
+      "code": 118,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Sociology",
+          "code": 156
+        },
+        {
+          "name": "BA Psychology",
+          "code": 157
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA Hindi Language & Literature",
+          "code": 525
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "Mannaniya College Of Arts And Science Pangode Thiruvananthapuram",
+      "code": 119,
+      "courses": [
+        {
+          "name": "BA Islamic History",
+          "code": 141
+        },
+        {
+          "name": "BA Economics and Media Studies",
+          "code": 151
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Polymer Chemistry",
+          "code": 239
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Mar Ivanios College Nalanchira Thiruvananthapuram",
+      "code": 120,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA Malayalam with Media Studies",
+          "code": 516
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        },
+        {
+          "name": "MTA",
+          "code": 905
+        }
+      ]
+    },
+    {
+      "name": "H.H.M.S.P.B. N.S.S. College for Women Neeramankara Thiruvananthapuram",
+      "code": 121,
+      "courses": [
+        {
+          "name": "BA Philosophy",
+          "code": 105
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Music",
+          "code": 158
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Home Science",
+          "code": 255
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        }
+      ]
+    },
+    {
+      "name": "N S S College Cherthala Alappuzha",
+      "code": 122,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Environmental Science & Environment And Water Management",
+          "code": 216
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        }
+      ]
+    },
+    {
+      "name": "N S S College Pandalam Pathanamthitta",
+      "code": 123,
+      "courses": [
+        {
+          "name": "BA Sanskrit General",
+          "code": 110
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Biochemistry",
+          "code": 238
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "N S S College Nilamel Kollam",
+      "code": 124,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Biochemistry",
+          "code": 238
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Sanatana Dharma College Sanathanapuram Alappuzha",
+      "code": 125,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc MicroBiology",
+          "code": 345
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "St. Gregorios College Kottarakara Kollam",
+      "code": 126,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Zoology with Specialisation in Biosystematics and Biodiversity",
+          "code": 649
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana College Chempazhanthy Thiruvananthapuram",
+      "code": 127,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Sociology",
+          "code": 156
+        },
+        {
+          "name": "BA Psychology",
+          "code": 157
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany with Specialisation in Ethano Botany and Ethano Pharmacology",
+          "code": 646
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana College Chengannur Pathanamthitta",
+      "code": 128,
+      "courses": [
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "MA Economics (Behavioral Economics and Data Science)",
+          "code": 551
+        },
+        {
+          "name": "MSc Medicinal Chemistry",
+          "code": 603
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana College for Women Kollam",
+      "code": 129,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Music",
+          "code": 158
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Bio-chemistry And Industrial Microbiology",
+          "code": 248
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Home Science",
+          "code": 255
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics (Behavioral Economics and Data Science)",
+          "code": 551
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Applied Chemistry",
+          "code": 637
+        },
+        {
+          "name": "MSc Home Science(Family Resource Management)",
+          "code": 655
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana College Chathannur Kollam",
+      "code": 130,
+      "courses": [
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Chemistry And Industrial Chemistry",
+          "code": 241
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana College Cherthalla Alappuzha",
+      "code": 131,
+      "courses": [
+        {
+          "name": "BA Philosophy",
+          "code": 105
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry with Specialization in Drug Design and Development",
+          "code": 634
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "S N College Kollam",
+      "code": 132,
+      "courses": [
+        {
+          "name": "BA Philosophy",
+          "code": 105
+        },
+        {
+          "name": "BA Sanskrit Special",
+          "code": 111
+        },
+        {
+          "name": "BA Sanskrit Special - Vedanta",
+          "code": 112
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Malayalam Literatures",
+          "code": 131
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Music",
+          "code": 158
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA Hindi Language & Literature",
+          "code": 525
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MA Politics",
+          "code": 545
+        },
+        {
+          "name": "MA Political Science",
+          "code": 546
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Analytical Chemistry",
+          "code": 636
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        },
+        {
+          "name": "MSc Bio-Technology",
+          "code": 659
+        }
+      ]
+    },
+    {
+      "name": "S N College Punalur Kollam",
+      "code": 133,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA History (World History and Historeography)",
+          "code": 542
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        }
+      ]
+    },
+    {
+      "name": "S N College Sivagiri, Varkala Thiruvananthapuram",
+      "code": 134,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "BCom Commerce & Hotel Management And Catering",
+          "code": 339
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom International Trade",
+          "code": 591
+        },
+        {
+          "name": "MSc Geology",
+          "code": 610
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Analytical Chemistry",
+          "code": 636
+        }
+      ]
+    },
+    {
+      "name": "Sree Ayyappa College Thiruvanvandoor Alappuzha",
+      "code": 135,
+      "courses": [
+        {
+          "name": "BA English and Media Studies",
+          "code": 132
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Bio-chemistry And Industrial Microbiology",
+          "code": 248
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "St Michaels College Cherthala Alappuzha",
+      "code": 136,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA Logistics",
+          "code": 196
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B.Voc Software Development",
+          "code": 351
+        },
+        {
+          "name": "B.Voc Tourism and Hospitality Management",
+          "code": 352
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Polymer Chemistry",
+          "code": 639
+        }
+      ]
+    },
+    {
+      "name": "St Cyrils College Adoor Pathanamthitta",
+      "code": 137,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics and Computer Applications",
+          "code": 221
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        }
+      ]
+    },
+    {
+      "name": "St Johns College Anchal Kollam",
+      "code": 138,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "BCom Accounts and Data Science",
+          "code": 336
+        },
+        {
+          "name": "MA Public Administration",
+          "code": 580
+        },
+        {
+          "name": "MSc Environmental Science",
+          "code": 615
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        }
+      ]
+    },
+    {
+      "name": "St Josephs College For Women Alappuzha",
+      "code": 139,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Home Science",
+          "code": 255
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry with Specialization in Drug Design and Development",
+          "code": 634
+        },
+        {
+          "name": "MSc Home Science(Family Resource Management)",
+          "code": 655
+        },
+        {
+          "name": "MSc Home Science(Nutrition & Dietetics)",
+          "code": 658
+        }
+      ]
+    },
+    {
+      "name": "St Stephens College Pathanapuram Kollam",
+      "code": 140,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany with Specialisation in Ethano Botany and Ethano Pharmacology",
+          "code": 646
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "St Xaveirs College Thumba Thiruvananthapuram",
+      "code": 141,
+      "courses": [
+        {
+          "name": "BA Malayalam and Mass Communication",
+          "code": 116
+        },
+        {
+          "name": "BA English and Media Studies",
+          "code": 132
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        }
+      ]
+    },
+    {
+      "name": "T K M College Of Arts Science Kollam",
+      "code": 142,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Islamic History",
+          "code": 141
+        },
+        {
+          "name": "BA Economics and Mathematics",
+          "code": 149
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Biochemistry",
+          "code": 238
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Biochemistry",
+          "code": 638
+        }
+      ]
+    },
+    {
+      "name": "T.K. Madhava Memorial College Nangiarkulangara Alappuzha",
+      "code": 143,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Chemistry And Industrial Chemistry",
+          "code": 241
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry with Specialization in Drug Design and Development",
+          "code": 634
+        }
+      ]
+    },
+    {
+      "name": "University College Thiruvananthapuram",
+      "code": 144,
+      "courses": [
+        {
+          "name": "BA Philosophy",
+          "code": 105
+        },
+        {
+          "name": "BA Sanskrit General",
+          "code": 110
+        },
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA Tamil",
+          "code": 120
+        },
+        {
+          "name": "BA Hindi Language & Literature",
+          "code": 125
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Arabic Language & Literature",
+          "code": 135
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Islamic History",
+          "code": 141
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA Philosophy",
+          "code": 505
+        },
+        {
+          "name": "MA Sanskrit Language & Literature",
+          "code": 510
+        },
+        {
+          "name": "MA Malayalam Language & Literature",
+          "code": 515
+        },
+        {
+          "name": "MA Tamil Language & Literature",
+          "code": 520
+        },
+        {
+          "name": "MA Hindi Language & Literature",
+          "code": 525
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Arabic Language & Literature",
+          "code": 535
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MA Islamic History",
+          "code": 541
+        },
+        {
+          "name": "MA Politics",
+          "code": 545
+        },
+        {
+          "name": "MA Political Science",
+          "code": 546
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MA Psychology",
+          "code": 565
+        },
+        {
+          "name": "MSc Geography",
+          "code": 605
+        },
+        {
+          "name": "MSc Psychology",
+          "code": 606
+        },
+        {
+          "name": "MSc Geology",
+          "code": 610
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Statistics",
+          "code": 625
+        },
+        {
+          "name": "MSc Statistics with Specialization in Data Analytics",
+          "code": 626
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Chemistry",
+          "code": 635
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Zoology",
+          "code": 650
+        }
+      ]
+    },
+    {
+      "name": "V T M N S S College Dhanuvachapuram Thiruvananthapuram",
+      "code": 145,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA History",
+          "code": 540
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Govt. College Ambalapuzha Alappuzha",
+      "code": 146,
+      "courses": [
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Malayankeezu Madhavakavi Memorial Govt. Arts and Science College\n      Malayankeezu Thiruvananthapuram",
+      "code": 147,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "MCom International Trade",
+          "code": 591
+        }
+      ]
+    },
+    {
+      "name": "Govt. Arts & Science College Kulathoor, Neyyattinkara\n      Thiruvananthapuram",
+      "code": 148,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Biochemistry",
+          "code": 238
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        }
+      ]
+    },
+    {
+      "name": "Mar Gregorios College of Arts & Science Punnapra Alappuzha",
+      "code": 149,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Mother Theresa College Nellikad, Kattakada Thiruvananthapuram",
+      "code": 150,
+      "courses": [
+        {
+          "name": "BA Malayalam and Mass Communication",
+          "code": 116
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        }
+      ]
+    },
+    {
+      "name": "Don Bosco College Kottiyam Kollam",
+      "code": 151,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        }
+      ]
+    },
+    {
+      "name": "KTCT College of Arts & Science Kallambalam Thiruvananthapuram",
+      "code": 152,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Sociology",
+          "code": 156
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Economics",
+          "code": 550
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "KNM College of Arts & Science Kanjiramkulam Thiruvananthapuram",
+      "code": 153,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        }
+      ]
+    },
+    {
+      "name": "R.Parameswaran Pillai Memorial Arts and Science College Neyyar Dam\n      Thiruvananthapuram",
+      "code": 154,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        }
+      ]
+    },
+    {
+      "name": "Dr Palpu College of Arts & Science Pangode, Puthussery Kollam",
+      "code": 155,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Geology",
+          "code": 610
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        }
+      ]
+    },
+    {
+      "name": "Carmel College Muhamma Alappuzha",
+      "code": 156,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        }
+      ]
+    },
+    {
+      "name": "Mar Chrysostom College Paranthal,Adoor Kollam",
+      "code": 157,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BBA Logistics",
+          "code": 196
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        }
+      ]
+    },
+    {
+      "name": "Mannam N S S College Edamulakkal,Anchal Kollam",
+      "code": 158,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Christ College Vizhinjam Thiruvananthapuram",
+      "code": 159,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        }
+      ]
+    },
+    {
+      "name": "Mater Dei CMI College Enath Pathanamthitta",
+      "code": 160,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru College of Advanced Studies Nangiarkulangara Alappuzha",
+      "code": 161,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Geography",
+          "code": 605
+        }
+      ]
+    },
+    {
+      "name": "Bishop Moore College for the Hearing Impaired Adoor Pathanamthitta",
+      "code": 162,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Computer Science(HI)",
+          "code": 161
+        },
+        {
+          "name": "BCom (HI)",
+          "code": 162
+        }
+      ]
+    },
+    {
+      "name": "National Institute of Speech & Hearing Akkulam Thiruvananthapuram",
+      "code": 163,
+      "courses": [
+        {
+          "name": "B Sc Computer Science(HI)",
+          "code": 161
+        },
+        {
+          "name": "BCom (HI)",
+          "code": 162
+        },
+        {
+          "name": "BFA Painting(HI)",
+          "code": 370
+        },
+        {
+          "name": "BFA Sculpture(HI)",
+          "code": 371
+        },
+        {
+          "name": "BFA Applied-Art(HI)",
+          "code": 372
+        }
+      ]
+    },
+    {
+      "name": "White Memorial College of Arts and Science for Women Panachamoodu\n      Thiruvananthapuram",
+      "code": 164,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "NSS Arts and Science College Perayam,Kundara Kollam",
+      "code": 165,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        }
+      ]
+    },
+    {
+      "name": "MGM College of Arts and Science Kaniyapuram Thiruvananthapuram",
+      "code": 166,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Michaels Institute of Management and Technology Mayithara,Cherthala\n      Alappuzha",
+      "code": 167,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        }
+      ]
+    },
+    {
+      "name": "St.Marys College Mulavana,Kundara Kollam",
+      "code": 168,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        }
+      ]
+    },
+    {
+      "name": "KVM College of Arts and Science College,\n      Kokkothamangalam,Cherthala,Alapuzha Alappuzha",
+      "code": 169,
+      "courses": [
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BBA Logistics",
+          "code": 196
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        }
+      ]
+    },
+    {
+      "name": "Ayyankali Memorial Arts and Science College Kuryottumala,Punalur Kollam",
+      "code": 170,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "BCom Accounts and Data Science",
+          "code": 336
+        }
+      ]
+    },
+    {
+      "name": "Mar Ivanios College Kallumala,Mavelikkara Alappuzha",
+      "code": 171,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA Logistics",
+          "code": 196
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Gregorian College of Advanced Studies Alathara,Sreekariyam\n      Thiruvananthapuram",
+      "code": 172,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Psychology",
+          "code": 606
+        }
+      ]
+    },
+    {
+      "name": "Govt. Arts & Science College Thazhava Karunagappally Kollam",
+      "code": 173,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Sociology",
+          "code": 156
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        }
+      ]
+    },
+    {
+      "name": "Sri Sathya Sai Arts and Science College,Sai\n      Gramam,Thonnakkal,Thiruvananthapuram Thiruvananthapuram",
+      "code": 176,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "MSc Physics with Specialisation in Space Physics",
+          "code": 631
+        }
+      ]
+    },
+    {
+      "name": "Sree Sankara College, Kilimanoor, Thiruvananthapuram Thiruvananthapuram",
+      "code": 177,
+      "courses": [
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        }
+      ]
+    },
+    {
+      "name": "Santhom Malankara Arts & Science College,Edanji,Parassala\n      Thiruvananthapuram",
+      "code": 178,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        }
+      ]
+    },
+    {
+      "name": "Lourdes Matha College of Arts & Science Kuttichal Thiruvananthapuram",
+      "code": 179,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        }
+      ]
+    },
+    {
+      "name": "R.Sankar College of Arts and Science, Thazham South chathannoor Kollam",
+      "code": 502,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Hotel Management And Catering Science",
+          "code": 242
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BMS Hotel Management",
+          "code": 354
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "A J College of Science and Technology Thonnakkal Thiruvananthapuram",
+      "code": 800,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Hotel Management And Catering Science",
+          "code": 242
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Bio-chemistry And Industrial Microbiology",
+          "code": 248
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BMS Hotel Management",
+          "code": 354
+        },
+        {
+          "name": "MA Mass Communication and Journalism",
+          "code": 529
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Microbiology",
+          "code": 608
+        },
+        {
+          "name": "MSc Biochemistry",
+          "code": 638
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        },
+        {
+          "name": "MSc Bio-Technology",
+          "code": 659
+        }
+      ]
+    },
+    {
+      "name": "CHMM College for Advanced Studies Chavarkode Thiruvananthapuram",
+      "code": 801,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Adoor Pathanamthitta",
+      "code": 802,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Electronics",
+          "code": 651
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Mavelikkara Alappuzha",
+      "code": 803,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Electronics",
+          "code": 651
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "Emmanuel College Vazhichal Thiruvananthapuram",
+      "code": 804,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Biochemistry",
+          "code": 238
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Geography",
+          "code": 605
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSc Biochemistry",
+          "code": 638
+        }
+      ]
+    },
+    {
+      "name": "K V V S College Kaithaparambu Pathanamthitta",
+      "code": 805,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Botany",
+          "code": 645
+        },
+        {
+          "name": "MSc Electronics",
+          "code": 651
+        }
+      ]
+    },
+    {
+      "name": "Marthoma College of Science And Technology Ayur Kollam",
+      "code": 806,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BBA Logistics",
+          "code": 196
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Polymer Chemistry",
+          "code": 239
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Polymer Chemistry",
+          "code": 639
+        },
+        {
+          "name": "MSc Electronics",
+          "code": 651
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        },
+        {
+          "name": "MSc Bio-Technology",
+          "code": 659
+        }
+      ]
+    },
+    {
+      "name": "National College, Ambalathara Thiruvananthapuram Thiruvananthapuram",
+      "code": 807,
+      "courses": [
+        {
+          "name": "BA Communicative Arabic",
+          "code": 122
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Botany",
+          "code": 245
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Bio-chemistry And Industrial Microbiology",
+          "code": 248
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Biochemistry",
+          "code": 638
+        },
+        {
+          "name": "MSc Bio-Informatics",
+          "code": 641
+        },
+        {
+          "name": "MSc Electronics",
+          "code": 651
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        }
+      ]
+    },
+    {
+      "name": "Sree Sankara Vidya Peetom College Nagaroor Thiruvananthapuram",
+      "code": 808,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "Sree Vidyadhiraja Arts and Science College Karunagappally Kollam",
+      "code": 809,
+      "courses": [
+        {
+          "name": "BA Malayalam: Language, Culture & Literature",
+          "code": 115
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MA Music (Mridangam)",
+          "code": 578
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Mathematics",
+          "code": 620
+        },
+        {
+          "name": "MSc Physics",
+          "code": 630
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        }
+      ]
+    },
+    {
+      "name": "Member Sree Narayana Pillai Institute of Management & Technology\n      Chavara Kollam Kollam Kollam",
+      "code": 811,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MBA Integrated BM - MAM",
+          "code": 596
+        },
+        {
+          "name": "MBA Five Year MBA (Integrated)",
+          "code": 597
+        }
+      ]
+    },
+    {
+      "name": "Naipunnya School of Management,Near Manorama Jn Cherthala Alappuzha",
+      "code": 812,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Hotel Management And Catering Science",
+          "code": 242
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "BMS Hotel Management",
+          "code": 354
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        },
+        {
+          "name": "MTTM Master of Tourism and Travel Management",
+          "code": 906
+        }
+      ]
+    },
+    {
+      "name": "PMSA Pookoya Thangal Arts and Science College Kadakkal Kollam",
+      "code": 814,
+      "courses": [
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Bio-chemistry And Industrial Microbiology",
+          "code": 248
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana College of Technology Vadakkevila Kollam",
+      "code": 815,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Bio-Technology",
+          "code": 659
+        }
+      ]
+    },
+    {
+      "name": "KVVS Institute of Technology, Kaithaparambu Pathanamthitta",
+      "code": 818,
+      "courses": [
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Mar Baselious Institute of Technology Anchal Po, Kollam Kollam",
+      "code": 819,
+      "courses": [
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Institute of Technology , Vadakkevila Po, Kollam Kollam",
+      "code": 821,
+      "courses": [
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru Memorial Arts & Science College Thuravoor,Cherthala\n      Alappuzha",
+      "code": 822,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Hotel Management And Catering Science",
+          "code": 242
+        },
+        {
+          "name": "B Sc Botany And Biotechnology",
+          "code": 247
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "BMS Hotel Management",
+          "code": 354
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Dhanuvachapuram Thiruvananthapuram",
+      "code": 823,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MSc Electronics",
+          "code": 651
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Kundara Kollam",
+      "code": 824,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "Christ Nagar College Maranalloor Thiruvananthapuram",
+      "code": 825,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Statistics",
+          "code": 225
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        }
+      ]
+    },
+    {
+      "name": "Vigyaan College of Applied Sciences Kattakkada Thiruvananthapuram",
+      "code": 826,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BSW",
+          "code": 315
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSW Social Work",
+          "code": 915
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Karthikappally Alappuzha",
+      "code": 827,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru College of Advanced Studies Chempazhanthy\n      Thiruvananthapuram",
+      "code": 888,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Geography",
+          "code": 605
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru College of Advanced Studies Cherthala Alappuzha",
+      "code": 889,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA History",
+          "code": 140
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Mathematics",
+          "code": 220
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru College of Advanced Studies Punalur Kollam",
+      "code": 890,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru College of Advanced Studies Sivagiri\n      Thiruvananthapuram",
+      "code": 891,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA Political Science",
+          "code": 145
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Geology",
+          "code": 210
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        }
+      ]
+    },
+    {
+      "name": "SDV College of Arts & Applied Science Alappuzha",
+      "code": 892,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BA Journalism, Mass Communication and Video Production",
+          "code": 129
+        },
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BCom Commerce & Tourism And Travel Management",
+          "code": 338
+        },
+        {
+          "name": "B Sc Bio-Technology",
+          "code": 350
+        }
+      ]
+    },
+    {
+      "name": "Muslim Association College of Arts and Science Panavoor\n      Thiruvananthapuram",
+      "code": 893,
+      "courses": [
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "BA Sociology",
+          "code": 156
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Kalanjoor Pathanamthitta",
+      "code": 894,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Perissery Alappuzha",
+      "code": 895,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "Marian College of Arts and Science Menamkuulam Kazhakuttom\n      Thiruvananthapuram",
+      "code": 896,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Geography",
+          "code": 205
+        },
+        {
+          "name": "B Sc Zoology",
+          "code": 250
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "Lourdes Matha Institute of Hotel Management & Catering Technology\n      Kuttichal Thiruvananthapuram",
+      "code": 900,
+      "courses": [
+        {
+          "name": "BHM",
+          "code": 353
+        },
+        {
+          "name": "BHMCT",
+          "code": 355
+        },
+        {
+          "name": "B.Voc Food Processing",
+          "code": 359
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru Memorial Catering college Thuravoor Alappuzha",
+      "code": 901,
+      "courses": [
+        {
+          "name": "BHM",
+          "code": 353
+        },
+        {
+          "name": "BHMCT",
+          "code": 355
+        }
+      ]
+    },
+    {
+      "name": "Snehacharya Institute of Management & Technology Karuvatta Alappuzha",
+      "code": 902,
+      "courses": [
+        {
+          "name": "BHM",
+          "code": 353
+        },
+        {
+          "name": "BHMCT",
+          "code": 355
+        },
+        {
+          "name": "B.Voc Travel and Tourism",
+          "code": 357
+        },
+        {
+          "name": "B.Voc Food Processing",
+          "code": 359
+        }
+      ]
+    },
+    {
+      "name": "UIT Kuravankonam Thiruvananthapuram",
+      "code": 950,
+      "courses": [
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Electronics",
+          "code": 340
+        }
+      ]
+    },
+    {
+      "name": "UIT Neyyattinkara Thiruvananthapuram",
+      "code": 951,
+      "courses": [
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Mulamkadakam Kollam",
+      "code": 952,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "UIT Adoor Pathanamthitta",
+      "code": 954,
+      "courses": [
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        }
+      ]
+    },
+    {
+      "name": "UIT Pathanapuram Kollam",
+      "code": 955,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Pirappancode Thiruvananthapuram",
+      "code": 956,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "MA English Language & Literature",
+          "code": 530
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Alappuzha Alappuzha",
+      "code": 957,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        },
+        {
+          "name": "MSc Computer Science",
+          "code": 654
+        }
+      ]
+    },
+    {
+      "name": "UIT Yeroor Kollam",
+      "code": 958,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Kottarakkara Kollam",
+      "code": 959,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Karuvatta Alappuzha",
+      "code": 960,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BCom Commerce & Tax Procedure And Practice",
+          "code": 337
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Sasthamkotta Kollam",
+      "code": 961,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Thenmala Kollam",
+      "code": 962,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        }
+      ]
+    },
+    {
+      "name": "UIT Mukhathala Kollam",
+      "code": 963,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        }
+      ]
+    },
+    {
+      "name": "UIT Mannar Alappuzha",
+      "code": 964,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT,Mannandy Pathanamthitta",
+      "code": 965,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        }
+      ]
+    },
+    {
+      "name": "UIT,Vakkom,Attingal Thiruvananthapuram",
+      "code": 966,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT ,Vellarada Thiruvananthapuram",
+      "code": 967,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BA English And Communicative English",
+          "code": 133
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        },
+        {
+          "name": "B Sc Physics And Computer Application",
+          "code": 328
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "MCom",
+          "code": 590
+        }
+      ]
+    },
+    {
+      "name": "UIT Veli,Thiruvananthapuram Thiruvananthapuram",
+      "code": 988,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        }
+      ]
+    },
+    {
+      "name": "College of Applied Science Kottarakara Kollam",
+      "code": 996,
+      "courses": [
+        {
+          "name": "BA Journalism And Mass Communication",
+          "code": 128
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "B Sc Psychology",
+          "code": 257
+        },
+        {
+          "name": "B Sc Computer Science",
+          "code": 320
+        }
+      ]
+    }
+  ]
+}

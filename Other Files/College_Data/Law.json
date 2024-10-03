@@ -1,0 +1,151 @@
+{
+  "college_type": "Law",
+  "colleges": [
+    {
+      "name": "Govt. Law College Thiruvananthapuram Thiruvananthapuram",
+      "code": 550,
+      "courses": [
+        {
+          "name": "LLB Unitary Degree Course in Law (Evening)",
+          "code": 472
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        },
+        {
+          "name": "LLB Unitary Degree Course in Law",
+          "code": 474
+        }
+      ]
+    },
+    {
+      "name": "The Kerala Law Academy Law College Thiruvananthapuram Thiruvananthapuram",
+      "code": 551,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.Com LL.B Degree Course",
+          "code": 471
+        },
+        {
+          "name": "LLB Unitary Degree Course in Law (Evening)",
+          "code": 472
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        },
+        {
+          "name": "LLB Unitary Degree Course in Law",
+          "code": 474
+        }
+      ]
+    },
+    {
+      "name": "N.S.S. Law College Kottiyam Kollam",
+      "code": 552,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru College of Legal Studies Kollam Kollam",
+      "code": 553,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.Com LL.B Degree Course",
+          "code": 471
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        },
+        {
+          "name": "LLB Integrated Five Year B.B.A LL.B Degree Course",
+          "code": 475
+        }
+      ]
+    },
+    {
+      "name": "Mar Gregorios College of Law Nalanchira Thiruvananthapuram",
+      "code": 554,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.Com LL.B Degree Course",
+          "code": 471
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        },
+        {
+          "name": "LLB Integrated Five Year B.B.A LL.B Degree Course",
+          "code": 475
+        }
+      ]
+    },
+    {
+      "name": "C S I Institute of Legal Studies Cheruvarakonam Thiruvananthapuram",
+      "code": 555,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.Com LL.B Degree Course",
+          "code": 471
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        },
+        {
+          "name": "LLB Unitary Degree Course in Law",
+          "code": 474
+        },
+        {
+          "name": "LLB Integrated Five Year B.B.A LL.B Degree Course",
+          "code": 475
+        }
+      ]
+    },
+    {
+      "name": "GuruNithyachaithanya Yathi College Of Law and Research Centre\n      Kareelakulangara Alappuzha",
+      "code": 556,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        }
+      ]
+    },
+    {
+      "name": "Divine Law College Adoor Pathanamthitta",
+      "code": 557,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.Com LL.B Degree Course",
+          "code": 471
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        }
+      ]
+    },
+    {
+      "name": "Mar Ivanios Law College Chengannur Alappuzha",
+      "code": 558,
+      "courses": [
+        {
+          "name": "LLB Integrated Five Year B.Com LL.B Degree Course",
+          "code": 471
+        },
+        {
+          "name": "LLB Integrated Five Year B.A. LL.B Degree Course",
+          "code": 473
+        }
+      ]
+    }
+  ]
+}

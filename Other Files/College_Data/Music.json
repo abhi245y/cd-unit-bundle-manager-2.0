@@ -1,0 +1,87 @@
+{
+  "college_type": "Music",
+  "colleges": [
+    {
+      "name": "Sree Swathi Thirunal College of Music, TVM Thiruvananthapuram",
+      "code": 451,
+      "courses": [
+        {
+          "name": "BPA Vocal",
+          "code": 142
+        },
+        {
+          "name": "BPA Veena",
+          "code": 143
+        },
+        {
+          "name": "BPA Violin",
+          "code": 147
+        },
+        {
+          "name": "BPA Mridangam",
+          "code": 148
+        },
+        {
+          "name": "BPA Dance",
+          "code": 152
+        },
+        {
+          "name": "BPA Music",
+          "code": 301
+        },
+        {
+          "name": "BPA Music (Veena)",
+          "code": 302
+        },
+        {
+          "name": "BPA Music (Violin)",
+          "code": 303
+        },
+        {
+          "name": "BPA Music (Mridangam)",
+          "code": 304
+        },
+        {
+          "name": "MA Music",
+          "code": 575
+        },
+        {
+          "name": "MA Music (Veena)",
+          "code": 576
+        },
+        {
+          "name": "MA Music (Violin)",
+          "code": 577
+        },
+        {
+          "name": "MA Music (Mridangam)",
+          "code": 578
+        },
+        {
+          "name": "MA Dance (Kerala Nadanam)",
+          "code": 579
+        },
+        {
+          "name": "MPA Veena",
+          "code": 900
+        },
+        {
+          "name": "MPA Violin",
+          "code": 901
+        },
+        {
+          "name": "MPA Mridangam",
+          "code": 902
+        },
+        {
+          "name": "MPA Dance",
+          "code": 903
+        },
+        {
+          "name": "MPA Vocal",
+          "code": 912
+        }
+      ]
+    }
+  ]
+}

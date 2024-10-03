@@ -1,0 +1,1836 @@
+{
+  "college_type": "Engineering",
+  "colleges": [
+    {
+      "name": "College of Engineering Thiruvananthapuram",
+      "code": 400,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Industrial Engineering",
+          "code": 406
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Civil Engineering (PT)",
+          "code": 421
+        },
+        {
+          "name": "BTech Mechanical Engineering (PT)",
+          "code": 422
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering (PT)",
+          "code": 423
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering (PT)",
+          "code": 424
+        },
+        {
+          "name": "BTech Computer Science & Engineering (PT)",
+          "code": 425
+        },
+        {
+          "name": "BArch",
+          "code": 455
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MBA Part Time",
+          "code": 598
+        },
+        {
+          "name": "MBA Regular ( Evening )",
+          "code": 599
+        },
+        {
+          "name": "MTech CSE - Information Security",
+          "code": 712
+        },
+        {
+          "name": "MTech ECE(Microwave and TV Engineering - PT)",
+          "code": 714
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech CE(Geotechnical Engineering)",
+          "code": 716
+        },
+        {
+          "name": "MTech CE(Hydraulics Engineering)",
+          "code": 717
+        },
+        {
+          "name": "MTech CE(Traffic and Transportation Engineering)",
+          "code": 718
+        },
+        {
+          "name": "MTech CE(Environmental Engineering)",
+          "code": 719
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech EEE(Electrical Machines)",
+          "code": 723
+        },
+        {
+          "name": "MTech EEE(Guidance and Navigational Control)",
+          "code": 724
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech ECE(Microwave and TV Engineering)",
+          "code": 730
+        },
+        {
+          "name": "MPlan",
+          "code": 731
+        },
+        {
+          "name": "MArch Urban Design",
+          "code": 732
+        },
+        {
+          "name": "MTech ME(Industrial Engineering)",
+          "code": 733
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ME(Propulsion Engineering)",
+          "code": 735
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech CE(Geoinformatics)",
+          "code": 738
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        },
+        {
+          "name": "MTech CE(Geotechnical Engineering - PT)",
+          "code": 746
+        },
+        {
+          "name": "MTech ME(Industrial Engineering - PT)",
+          "code": 747
+        },
+        {
+          "name": "MTech EEE(Control Systems - PT)",
+          "code": 748
+        },
+        {
+          "name": "MTech ME(Thermal Science - PT)",
+          "code": 749
+        },
+        {
+          "name": "MTech EEE(Power Systems - PT)",
+          "code": 750
+        },
+        {
+          "name": "MTech ECE(Signal Processing -PT)",
+          "code": 751
+        },
+        {
+          "name": "MTech ECE (Applied Electronics and Instrumentation -PT)",
+          "code": 752
+        },
+        {
+          "name": "MTech CE-Structural Engineering (PT)",
+          "code": 754
+        },
+        {
+          "name": "MTech ME-Machine Design (PT)",
+          "code": 755
+        },
+        {
+          "name": "MTech ME-Propulsion Engineering (PT)",
+          "code": 756
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Government Engineering College,Barton Hill Thiruvananthapuram",
+      "code": 401,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech EEE( Power System & Control )",
+          "code": 728
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        },
+        {
+          "name": "MTech IT(Network Engineering)",
+          "code": 745
+        }
+      ]
+    },
+    {
+      "name": "S.C.T College of Engineering Thiruvananthapuram",
+      "code": 402,
+      "courses": [
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Production Engineering",
+          "code": 404
+        },
+        {
+          "name": "BTech Mechanical Stream - Automobile Engineering",
+          "code": 405
+        },
+        {
+          "name": "BTech Bio-Technology and Bio-Chemical Engineering",
+          "code": 408
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech CE (Vehicle Design & Road Safety Engineering )",
+          "code": 727
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        },
+        {
+          "name": "MTech ECE(Signal Processing -PT)",
+          "code": 751
+        },
+        {
+          "name": "MTech ECE (Applied Electronics and Instrumentation -PT)",
+          "code": 752
+        },
+        {
+          "name": "MTech Computer Science & Engineering ( PT )",
+          "code": 753
+        }
+      ]
+    },
+    {
+      "name": "T.K.M.College of Engineering Kollam",
+      "code": 403,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Production Engineering",
+          "code": 404
+        },
+        {
+          "name": "BTech Chemical Engineering",
+          "code": 407
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Civil Engineering (PT)",
+          "code": 421
+        },
+        {
+          "name": "BTech Mechanical Engineering (PT)",
+          "code": 422
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering (PT)",
+          "code": 423
+        },
+        {
+          "name": "BTech Computer Science & Engineering (PT)",
+          "code": 425
+        },
+        {
+          "name": "BArch",
+          "code": 455
+        },
+        {
+          "name": "MBA Part Time",
+          "code": 598
+        },
+        {
+          "name": "MBA Regular ( Evening )",
+          "code": 599
+        },
+        {
+          "name": "MTech ECE - Communication Systems",
+          "code": 711
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ME(Industrial Refrigeration and Cryogenic Engineering)",
+          "code": 737
+        },
+        {
+          "name": "MTech ME(Computer Integrated Manufacturing)",
+          "code": 741
+        },
+        {
+          "name": "MTech EEE(Industrial Instrumentaion and Control)",
+          "code": 742
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "University College of Engineering, Kariavattom Thiruvananthapuram",
+      "code": 404,
+      "courses": [
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        }
+      ]
+    },
+    {
+      "name": "KVM College of Engineering Alappuzha",
+      "code": 405,
+      "courses": []
+    },
+    {
+      "name": "LBS Institute of Technology for Women Thiruvananthapuram",
+      "code": 406,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        }
+      ]
+    },
+    {
+      "name": "Marian College of Engineering & Technology Thiruvananthapuram",
+      "code": 407,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech CE(Geotechnical Engineering)",
+          "code": 716
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        }
+      ]
+    },
+    {
+      "name": "Mar Baselios College of Engineering & Technology,Nalanchira\n      Thiruvananthapuram",
+      "code": 408,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech CSE - Information Security",
+          "code": 712
+        },
+        {
+          "name": "MTech EEE - Power Control and Drives",
+          "code": 713
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech CE(Traffic and Transportation Engineering)",
+          "code": 718
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        },
+        {
+          "name": "MTech ECE(Telecommunication Engineering)",
+          "code": 744
+        }
+      ]
+    },
+    {
+      "name": "Mohandas College of Engineering & Technology Thiruvananthapuram",
+      "code": 409,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Bio-Technology and Bio-Chemical Engineering",
+          "code": 408
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech ECE - Communication Systems",
+          "code": 711
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech ECE(Microwave and TV Engineering)",
+          "code": 730
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Amritha Institute of Technology & Science, Vallickavu Kollam",
+      "code": 410,
+      "courses": [
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        }
+      ]
+    },
+    {
+      "name": "Baselios Mathews II College of Engineering, Sasthamcotta Kollam",
+      "code": 411,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CSE - Information Security",
+          "code": 712
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ECE(Embedded Systems)",
+          "code": 739
+        },
+        {
+          "name": "MTech IT(Network Engineering)",
+          "code": 745
+        }
+      ]
+    },
+    {
+      "name": "Shahul Hameed Memorial College of Engineering, Kadakkal Kollam",
+      "code": 412,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        }
+      ]
+    },
+    {
+      "name": "Lourdes Matha College of Science & Technology Thiruvananthapuram",
+      "code": 413,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech ME(Industrial Engineering)",
+          "code": 733
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Sree Buddha College of Engineering, Nooranad Alappuzha",
+      "code": 414,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Bio-Technology and Bio-Chemical Engineering",
+          "code": 408
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Electrical Machines)",
+          "code": 723
+        },
+        {
+          "name": "MTech ECE(Embedded Systems)",
+          "code": 739
+        },
+        {
+          "name": "MTech BB(Molecular Medicine)",
+          "code": 740
+        },
+        {
+          "name": "MTech ME(Computer Integrated Manufacturing)",
+          "code": 741
+        }
+      ]
+    },
+    {
+      "name": "Muslim Association College of Engineering, Venjarammoodu\n      Thiruvananthapuram",
+      "code": 415,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ECE(Microwave and TV Engineering)",
+          "code": 730
+        },
+        {
+          "name": "MTech ME(Industrial Engineering)",
+          "code": 733
+        }
+      ]
+    },
+    {
+      "name": "Younus College of Engineeing & Technology Kollam",
+      "code": 416,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech IT(Network Engineering)",
+          "code": 745
+        }
+      ]
+    },
+    {
+      "name": "Travancore Engineering College, Oyoor Kollam",
+      "code": 417,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech ECE(Telecommunication Engineering)",
+          "code": 744
+        }
+      ]
+    },
+    {
+      "name": "PRS College of Engineering and Technology Thiruvananthapuram",
+      "code": 418,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        }
+      ]
+    },
+    {
+      "name": "P A Azeez College of Engineering Thiruvananthapuram",
+      "code": 419,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        }
+      ]
+    },
+    {
+      "name": "College of Engineering and Management, Punnapra Vadackal Alappuzha",
+      "code": 420,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ME(Computer Integrated Manufacturing)",
+          "code": 741
+        }
+      ]
+    },
+    {
+      "name": "Archana College of Engineering Palamel Alappuzha",
+      "code": 421,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "Hindustan College of Engineering Arippa, Kulathupuzha Kollam",
+      "code": 422,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "John Cox Memorial CSI Institute of Technology Kannammoola\n      Thiruvananthapuram",
+      "code": 423,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        }
+      ]
+    },
+    {
+      "name": "KR Gouri Amma College of Engineering For Women Thuravoor Alappuzha",
+      "code": 424,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ECE(Embedded Systems)",
+          "code": 739
+        }
+      ]
+    },
+    {
+      "name": "MES Institute of Technology and Management Chathannoor Kollam",
+      "code": 425,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "Mount Zion College of Engineering And Technology For Women\n      Kozhuvalloor,Chengannur Alappuzha",
+      "code": 426,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "Pankajakasthuri College of Engineering And Technology Kandala,Kattakada\n      Thiruvananthapuram",
+      "code": 427,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "MTech CE(Traffic and Transportation Engineering)",
+          "code": 718
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        }
+      ]
+    },
+    {
+      "name": "Rajadhani Institute of Engineering And Technology Alamcode,Attingal\n      Thiruvananthapuram",
+      "code": 428,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Aeronautical Engineering",
+          "code": 409
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        }
+      ]
+    },
+    {
+      "name": "UKF College of Engineering And Technology Paripally Kollam",
+      "code": 429,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Environmental Engineering)",
+          "code": 719
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        }
+      ]
+    },
+    {
+      "name": "Valia Koonambaikulathamma College of Engineering And Technology Chavarcode\n      Thiruvananthapuram",
+      "code": 430,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech ECE - Communication Systems",
+          "code": 711
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        }
+      ]
+    },
+    {
+      "name": "Vellapally Natesan College of Engineering Kattachira,Kayamkulam Alappuzha",
+      "code": 431,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        }
+      ]
+    },
+    {
+      "name": "Heera College of Engineering & Technology Panavoor, Nedumangad\n      Thiruvananthapuram",
+      "code": 432,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ECE(Embedded Systems)",
+          "code": 739
+        }
+      ]
+    },
+    {
+      "name": "St. Thomas College of Engineering & Technology Kozhuvalloor,\n      Chengannur Alappuzha",
+      "code": 433,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "St. Thomas Institute of Science & Technology Mar Chrysostom Nagar,\n      Kattaikonam Thiruvananthapuram",
+      "code": 434,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MTech CE(Geotechnical Engineering)",
+          "code": 716
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        }
+      ]
+    },
+    {
+      "name": "Younus College of Engineering Thalachira, Kottarakara Kollam",
+      "code": 435,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "Bishop Jerome Institute Fathima College Road Kollam",
+      "code": 436,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BArch",
+          "code": 455
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Musaliar College of Engineering Chirayinkeezhu Thiruvananthapuram",
+      "code": 437,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Institute of Technology Theppupara,Ezhamkulam\n      Pathanamthitta",
+      "code": 438,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Automobile Engineering",
+          "code": 405
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ECE(Embedded Systems)",
+          "code": 739
+        }
+      ]
+    },
+    {
+      "name": "Trinity College of Engineering Trinity Hills,Poovada,Naruvamoodu\n      Thiruvananthapuram",
+      "code": 439,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        }
+      ]
+    },
+    {
+      "name": "Younus Institute of Technology Kannanalloor Kollam",
+      "code": 440,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        }
+      ]
+    },
+    {
+      "name": "Ace College of Engineering Thiruvallam Thiruvananthapuram",
+      "code": 441,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Aeronautical Engineering",
+          "code": 409
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        }
+      ]
+    },
+    {
+      "name": "Vidya Academy of Science and Technology Kilimanoor Thiruvananthapuram",
+      "code": 442,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        }
+      ]
+    },
+    {
+      "name": "Pinnacle School of Engineering and Technology Anchal Kollam",
+      "code": 443,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        }
+      ]
+    },
+    {
+      "name": "Carmel College of Engineering and Technology Punnapara Alappuzha",
+      "code": 444,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        }
+      ]
+    },
+    {
+      "name": "College of Architecture Thinavila Thiruvananthapuram",
+      "code": 475,
+      "courses": [
+        {
+          "name": "BArch",
+          "code": 455
+        }
+      ]
+    }
+  ]
+}

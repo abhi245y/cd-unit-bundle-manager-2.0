@@ -1,0 +1,1869 @@
+{
+  "college_type": "Training",
+  "colleges": [
+    {
+      "name": "Govt. College of Teacher Education Thycaud Thiruvananthapuram",
+      "code": 300,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        },
+        {
+          "name": "BEd Geography",
+          "code": 191
+        },
+        {
+          "name": "BEd Tamil",
+          "code": 192
+        },
+        {
+          "name": "BEd Sanskrit",
+          "code": 193
+        }
+      ]
+    },
+    {
+      "name": "Karmela Rani Training College Kollam",
+      "code": 301,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Mar Theophilus Training College Nalanchira Thiruvananthapuram",
+      "code": 302,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Mount Tabor Training College Pathanapuram Kollam",
+      "code": 303,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "N.S.S.Training College Pandalam Pathanamthitta",
+      "code": 304,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        },
+        {
+          "name": "BEd Geography",
+          "code": 191
+        }
+      ]
+    },
+    {
+      "name": "Peet Memorial Training College Mavelikkara Alappuzha",
+      "code": 305,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Training College Nedunganda Thiruvananthapuram",
+      "code": 306,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Fathima Memorial Training College Mylapore Kollam",
+      "code": 340,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Ramavilasom Training College Valakom Kollam",
+      "code": 341,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Baselios Marthoma Mathews II Training College Kottarakkara Kollam",
+      "code": 350,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "CSI College of Education Parassala Thiruvananthapuram",
+      "code": 351,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Fathima Memorial Training College Pallimukku Kollam",
+      "code": 352,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "KNM KNMS Training College Vellarada Kollam",
+      "code": 353,
+      "courses": [
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Mannam Memorial Training College Vilakudi Kollam",
+      "code": 354,
+      "courses": [
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "National Training College for Women Nedumangad Thiruvananthapuram",
+      "code": 355,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Arabic",
+          "code": 171
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        }
+      ]
+    },
+    {
+      "name": "BNV College of Teacher Education Thiruvallam Thiruvananthapuram",
+      "code": 357,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Buddha College of Teacher Education Cheppad Alappuzha",
+      "code": 358,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Christ Nagar College of Education Thiruvallam Thiruvananthapuram",
+      "code": 359,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "College of Teacher Education Arkkannur Kollam",
+      "code": 360,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Emmanuel College of B.Ed. Training Vazhichal Thiruvananthapuram",
+      "code": 361,
+      "courses": [
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        },
+        {
+          "name": "BEd Geography",
+          "code": 191
+        }
+      ]
+    },
+    {
+      "name": "Haneefa Kunju Memorial College of Education Umaayanalloor Kollam",
+      "code": 364,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "H.H. Marthoma Mathews II Training College Adoor Pathanamthitta",
+      "code": 365,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Iqbal Training College Peringammala Thiruvananthapuram",
+      "code": 366,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Jameela Beevi Memorial Centre for Teacher Education Kayamkulam Alappuzha",
+      "code": 367,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Kaviyattu College of Education Pirappancode Thiruvananthapuram",
+      "code": 368,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "KTCT College of Teacher Education Kaduvayil Thiruvananthapuram",
+      "code": 369,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "MAET Training College Nettayam Thiruvananthapuram",
+      "code": 371,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Manjappara Educational & Charitable Trust B.Ed. College Ayoor Kollam",
+      "code": 372,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Mannam Foundation Centre for Education Technology Edakkad Kollam",
+      "code": 373,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Millath College of Teacher Education Sooranad Kollam",
+      "code": 375,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "New B.Ed. College Nellimoodu Thiruvananthapuram",
+      "code": 376,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        }
+      ]
+    },
+    {
+      "name": "Pattom Thanupillai Memorial College of Education Maruthoorkonam\n      Thiruvananthapuram",
+      "code": 377,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Sabarigiri College of Teacher Education Anchal Kollam",
+      "code": 379,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Sobha College of Teacher Education Mararikulam Alappuzha",
+      "code": 381,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Gurukripa B.Ed College Pothencode Thiruvananthapuram",
+      "code": 382,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Training College Poochakkal Alappuzha",
+      "code": 383,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Sri Vidyadhiraja Model College of Teacher Education Vendar Kollam",
+      "code": 384,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "St. Jacob's Training College Menamkulam Thiruvananthapuram",
+      "code": 385,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "St.Thomas Training College Mukkolakkal Thiruvananthapuram",
+      "code": 386,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Valiyam Memorial College of Teacher Education Chavara Kollam",
+      "code": 387,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        },
+        {
+          "name": "BEd Sanskrit",
+          "code": 193
+        }
+      ]
+    },
+    {
+      "name": "Victory College of Teacher Education Olathanni Thiruvananthapuram",
+      "code": 388,
+      "courses": [
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "M.E.T.C.A Institute of Teacher Education Chavarcode Thiruvananthapuram",
+      "code": 389,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Pushpageeth College of Teacher Education Elimala Thiruvananthapuram",
+      "code": 390,
+      "courses": [
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Jamia Training College Chithara Kollam",
+      "code": 391,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Badhiriya B.Ed. Training College Velichikkala Kollam",
+      "code": 392,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "St. John's B.Ed Training College Kayamkulam Alappuzha",
+      "code": 393,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "St. Tresa's College of Education Kundara Kollam",
+      "code": 394,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "K.P.M. B.Ed. Training College Oyoor Kollam",
+      "code": 397,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Kunjukrishnan Nadar Memorial B.Ed.College Kanjiramkulam\n      Thiruvananthapuram",
+      "code": 398,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Guru Memorial B.Ed. College Thuravoor Alappuzha",
+      "code": 399,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "Lakshmibai National College of Physical Education Kariavattom\n      Thiruvananthapuram",
+      "code": 500,
+      "courses": [
+        {
+          "name": "B.P.Ed",
+          "code": 460
+        },
+        {
+          "name": "MPEd",
+          "code": 956
+        },
+        {
+          "name": "MPES",
+          "code": 958
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Kumarapuram Thiruvananthapuram",
+      "code": 971,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        },
+        {
+          "name": "BEd Sanskrit",
+          "code": 193
+        },
+        {
+          "name": "BEd Home Science",
+          "code": 194
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Kariavattom Thiruvananthapuram",
+      "code": 972,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Kollam Kollam",
+      "code": 973,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Anchal Kollam",
+      "code": 975,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Kayamkulam Alappuzha",
+      "code": 978,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Arabic",
+          "code": 171
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Adoor Pathanamthitta",
+      "code": 979,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Kunnam Alappuzha",
+      "code": 980,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Aryad Alappuzha",
+      "code": 981,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Arabic",
+          "code": 171
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Kulakkada Thiruvananthapuram",
+      "code": 982,
+      "courses": [
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        },
+        {
+          "name": "BEd Commerce",
+          "code": 190
+        }
+      ]
+    },
+    {
+      "name": "KUCTE Nedumangadu Thiruvananthapuram",
+      "code": 983,
+      "courses": [
+        {
+          "name": "BEd English",
+          "code": 165
+        },
+        {
+          "name": "BEd Malayalam",
+          "code": 168
+        },
+        {
+          "name": "BEd Social Science",
+          "code": 169
+        },
+        {
+          "name": "BEd Hindi",
+          "code": 170
+        },
+        {
+          "name": "BEd Mathematics",
+          "code": 180
+        },
+        {
+          "name": "BEd Natural Science",
+          "code": 181
+        },
+        {
+          "name": "BEd Physical Science",
+          "code": 182
+        }
+      ]
+    },
+    {
+      "name": "UIT Veli,Thiruvananthapuram Thiruvananthapuram",
+      "code": 988,
+      "courses": [
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        }
+      ]
+    }
+  ]
+}

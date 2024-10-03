@@ -1,0 +1,9 @@
+groq==0.11.0
+PyQt5==5.15.11
+PyQt5_sip==12.15.0
+PyQt6==6.7.1
+PyQt6_sip==13.8.0
+python_dateutil==2.9.0.post0
+PyYAML==6.0.2
+SQLAlchemy==2.0.35
+mysqlclient==2.2.4

@@ -1,0 +1,757 @@
+{
+  "college_type": "Management",
+  "colleges": [
+    {
+      "name": "College of Engineering Thiruvananthapuram",
+      "code": 400,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Industrial Engineering",
+          "code": 406
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Civil Engineering (PT)",
+          "code": 421
+        },
+        {
+          "name": "BTech Mechanical Engineering (PT)",
+          "code": 422
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering (PT)",
+          "code": 423
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering (PT)",
+          "code": 424
+        },
+        {
+          "name": "BTech Computer Science & Engineering (PT)",
+          "code": 425
+        },
+        {
+          "name": "BArch",
+          "code": 455
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MBA Part Time",
+          "code": 598
+        },
+        {
+          "name": "MBA Regular ( Evening )",
+          "code": 599
+        },
+        {
+          "name": "MTech CSE - Information Security",
+          "code": 712
+        },
+        {
+          "name": "MTech ECE(Microwave and TV Engineering - PT)",
+          "code": 714
+        },
+        {
+          "name": "MTech CE(Structural Engineering)",
+          "code": 715
+        },
+        {
+          "name": "MTech CE(Geotechnical Engineering)",
+          "code": 716
+        },
+        {
+          "name": "MTech CE(Hydraulics Engineering)",
+          "code": 717
+        },
+        {
+          "name": "MTech CE(Traffic and Transportation Engineering)",
+          "code": 718
+        },
+        {
+          "name": "MTech CE(Environmental Engineering)",
+          "code": 719
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech EEE(Electrical Machines)",
+          "code": 723
+        },
+        {
+          "name": "MTech EEE(Guidance and Navigational Control)",
+          "code": 724
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech ECE(Microwave and TV Engineering)",
+          "code": 730
+        },
+        {
+          "name": "MPlan",
+          "code": 731
+        },
+        {
+          "name": "MArch Urban Design",
+          "code": 732
+        },
+        {
+          "name": "MTech ME(Industrial Engineering)",
+          "code": 733
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ME(Propulsion Engineering)",
+          "code": 735
+        },
+        {
+          "name": "MTech ME(Thermal Science)",
+          "code": 736
+        },
+        {
+          "name": "MTech CE(Geoinformatics)",
+          "code": 738
+        },
+        {
+          "name": "MTech ECE(Signal Processing)",
+          "code": 743
+        },
+        {
+          "name": "MTech CE(Geotechnical Engineering - PT)",
+          "code": 746
+        },
+        {
+          "name": "MTech ME(Industrial Engineering - PT)",
+          "code": 747
+        },
+        {
+          "name": "MTech EEE(Control Systems - PT)",
+          "code": 748
+        },
+        {
+          "name": "MTech ME(Thermal Science - PT)",
+          "code": 749
+        },
+        {
+          "name": "MTech EEE(Power Systems - PT)",
+          "code": 750
+        },
+        {
+          "name": "MTech ECE(Signal Processing -PT)",
+          "code": 751
+        },
+        {
+          "name": "MTech ECE (Applied Electronics and Instrumentation -PT)",
+          "code": 752
+        },
+        {
+          "name": "MTech CE-Structural Engineering (PT)",
+          "code": 754
+        },
+        {
+          "name": "MTech ME-Machine Design (PT)",
+          "code": 755
+        },
+        {
+          "name": "MTech ME-Propulsion Engineering (PT)",
+          "code": 756
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "T.K.M.College of Engineering Kollam",
+      "code": 403,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Production Engineering",
+          "code": 404
+        },
+        {
+          "name": "BTech Chemical Engineering",
+          "code": 407
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Civil Engineering (PT)",
+          "code": 421
+        },
+        {
+          "name": "BTech Mechanical Engineering (PT)",
+          "code": 422
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering (PT)",
+          "code": 423
+        },
+        {
+          "name": "BTech Computer Science & Engineering (PT)",
+          "code": 425
+        },
+        {
+          "name": "BArch",
+          "code": 455
+        },
+        {
+          "name": "MBA Part Time",
+          "code": 598
+        },
+        {
+          "name": "MBA Regular ( Evening )",
+          "code": 599
+        },
+        {
+          "name": "MTech ECE - Communication Systems",
+          "code": 711
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech ME(Industrial Refrigeration and Cryogenic Engineering)",
+          "code": 737
+        },
+        {
+          "name": "MTech ME(Computer Integrated Manufacturing)",
+          "code": 741
+        },
+        {
+          "name": "MTech EEE(Industrial Instrumentaion and Control)",
+          "code": 742
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Lourdes Matha College of Science & Technology Thiruvananthapuram",
+      "code": 413,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Applied Electronics & Instrumentation Engineering",
+          "code": 413
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "BTech Information Technology",
+          "code": 416
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MTech Computer Science & Engineering",
+          "code": 721
+        },
+        {
+          "name": "MTech EEE(Control Systems)",
+          "code": 722
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        },
+        {
+          "name": "MTech ME(Industrial Engineering)",
+          "code": 733
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "Rajadhani Institute of Engineering And Technology Alamcode,Attingal\n      Thiruvananthapuram",
+      "code": 428,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Aeronautical Engineering",
+          "code": 409
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BTech Computer Science & Engineering",
+          "code": 415
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MTech ECE(Applied Electronics and Instrumentation)",
+          "code": 729
+        }
+      ]
+    },
+    {
+      "name": "Bishop Jerome Institute Fathima College Road Kollam",
+      "code": 436,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "BArch",
+          "code": 455
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Sree Narayana Institute of Technology Theppupara,Ezhamkulam\n      Pathanamthitta",
+      "code": 438,
+      "courses": [
+        {
+          "name": "BTech Civil Engineering",
+          "code": 401
+        },
+        {
+          "name": "BTech Mechanical Engineering",
+          "code": 403
+        },
+        {
+          "name": "BTech Mechanical Stream - Automobile Engineering",
+          "code": 405
+        },
+        {
+          "name": "BTech Electrical & Electronics Engineering",
+          "code": 411
+        },
+        {
+          "name": "BTech Electronics & Communication Engineering",
+          "code": 412
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MTech CE(Structural Enginnering and Construction Management)",
+          "code": 720
+        },
+        {
+          "name": "MTech EEE(Power Systems)",
+          "code": 725
+        },
+        {
+          "name": "MTech ME(Machine Design)",
+          "code": 734
+        },
+        {
+          "name": "MTech ECE(Embedded Systems)",
+          "code": 739
+        }
+      ]
+    },
+    {
+      "name": "Kerala Institute of Tourism and Travel Studies Thiruvananthapuram\n      Thiruvananthapuram",
+      "code": 453,
+      "courses": [
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "BBA",
+          "code": 195
+        },
+        {
+          "name": "MBA Travel and Tourism",
+          "code": 600
+        }
+      ]
+    },
+    {
+      "name": "Co-operative Institute of Management and Technology, Monvila Trivandrum\n      Thiruvananthapuram",
+      "code": 454,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Marthoma Institute of Information Technology,Chadayamangalam Ayur Kollam",
+      "code": 455,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MCA",
+          "code": 955
+        }
+      ]
+    },
+    {
+      "name": "G K M Co-operative College of Management & Technology Kakkode\n      Thiruvananthapuram",
+      "code": 456,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Kerala Institute of Co-operative Management Neyyardam Thiruvananthapuram",
+      "code": 457,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Institute of Management and Technology Punnapra Alappuzha",
+      "code": 458,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Gurudev Institute of Management Studies Kadakkal Kollam",
+      "code": 459,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "DC School of Management & Technology ,Kinfra Kazhakkuttam\n      Thiruvananthapuram",
+      "code": 460,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Institute of Management in Kerala Kariyavattom Thiruvananthapuram",
+      "code": 501,
+      "courses": [
+        {
+          "name": "MBA Evening",
+          "code": 586
+        },
+        {
+          "name": "MBA Regular ( Evening )",
+          "code": 599
+        },
+        {
+          "name": "MBA Shipping & Logistics-CSS",
+          "code": 959
+        },
+        {
+          "name": "MBA Travel & Tourism-CSS",
+          "code": 993
+        },
+        {
+          "name": "MBA Evening Regular-CSS",
+          "code": 994
+        },
+        {
+          "name": "MBA General-CSS",
+          "code": 995
+        }
+      ]
+    },
+    {
+      "name": "R.Sankar College of Arts and Science, Thazham South chathannoor Kollam",
+      "code": 502,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BA Economics",
+          "code": 150
+        },
+        {
+          "name": "B Sc Physics",
+          "code": 230
+        },
+        {
+          "name": "B Sc Chemistry",
+          "code": 235
+        },
+        {
+          "name": "B Sc Hotel Management And Catering Science",
+          "code": 242
+        },
+        {
+          "name": "BCA",
+          "code": 332
+        },
+        {
+          "name": "BMS Hotel Management",
+          "code": 354
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "T.K.M.Institute of Management, Kollam Kollam",
+      "code": 810,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "Member Sree Narayana Pillai Institute of Management & Technology\n      Chavara Kollam Kollam Kollam",
+      "code": 811,
+      "courses": [
+        {
+          "name": "BA English Language & Literature",
+          "code": 130
+        },
+        {
+          "name": "BCom Commerce with Computer Application",
+          "code": 138
+        },
+        {
+          "name": "BCom",
+          "code": 159
+        },
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        },
+        {
+          "name": "MBA Integrated BM - MAM",
+          "code": 596
+        },
+        {
+          "name": "MBA Five Year MBA (Integrated)",
+          "code": 597
+        }
+      ]
+    },
+    {
+      "name": "Allama Iqbal Institute of Management Daivappura Thiruvananthapuram",
+      "code": 817,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Vadakkal Alappuzha",
+      "code": 940,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Poojappura Thiruvananthapuram",
+      "code": 941,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Varkala Thiruvananthapuram",
+      "code": 942,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Ezhamkulam,Adoor Pathanamthitta",
+      "code": 943,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Mundakkal Kollam",
+      "code": 944,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Chemmakkad,Kundara Kollam",
+      "code": 945,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    },
+    {
+      "name": "UIM Punalur Kollam",
+      "code": 946,
+      "courses": [
+        {
+          "name": "MBA Full Time",
+          "code": 595
+        }
+      ]
+    }
+  ]
+}
