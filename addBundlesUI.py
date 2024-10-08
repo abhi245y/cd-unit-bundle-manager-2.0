@@ -97,6 +97,7 @@ class Ui_AddBundleDetails(object):
         self.cbQpSeries = QtWidgets.QComboBox(self.gbSlipDetailsGroup)
         self.cbQpSeries.setMinimumSize(QtCore.QSize(50, 0))
         self.cbQpSeries.setObjectName("cbQpSeries")
+        self.cbQpSeries.setEditable(True)
         self.verticalLayout_2.addWidget(self.cbQpSeries)
         self.horizontalLayout.addLayout(self.verticalLayout_2)
         self.line_2 = QtWidgets.QFrame(self.gbSlipDetailsGroup)
@@ -341,26 +342,37 @@ class Ui_AddBundleDetails(object):
                     "messenger": messengerName,
                     "collegeName": clgName,
                 }
-                if self.dbops.isBundlePresent(query) is False:
-                    self.addDataToTable()
-                    # self.leQpCode.clear()
-                    # self.sbBundleMulti.setValue(1)
-                else:
-                    # Bundle already exists, ask user whether they want to add it anyway
-                    msg_box = QtWidgets.QMessageBox()
-                    msg_box.setIcon(QtWidgets.QMessageBox.Warning)
-                    msg_box.setText("The bundle is already present in the database.")
-                    msg_box.setInformativeText("Do you want to add it anyway?")
-                    msg_box.setStandardButtons(
-                        QtWidgets.QMessageBox.Yes | QtWidgets.QMessageBox.No
-                    )
-                    response = msg_box.exec_()
-                    print("Bundle Already Present: ", query)
-                    if response == QtWidgets.QMessageBox.Yes:
-                        # User chose to add the bundle, so add it to the database
+                try:
+                    if self.dbops.isBundlePresent(query) is False:
                         self.addDataToTable()
                         # self.leQpCode.clear()
                         # self.sbBundleMulti.setValue(1)
+                    else:
+                        # Bundle already exists, ask user whether they want to add it anyway
+                        msg_box = QtWidgets.QMessageBox()
+                        msg_box.setIcon(QtWidgets.QMessageBox.Warning)
+                        msg_box.setText("The bundle is already present in the database.")
+                        msg_box.setInformativeText("Do you want to add it anyway?")
+                        msg_box.setStandardButtons(
+                            QtWidgets.QMessageBox.Yes | QtWidgets.QMessageBox.No
+                        )
+                        response = msg_box.exec_()
+                        print("Bundle Already Present: ", query)
+                        if response == QtWidgets.QMessageBox.Yes:
+                            # User chose to add the bundle, so add it to the database
+                            self.addDataToTable()
+                            # self.leQpCode.clear()
+                            # self.sbBundleMulti.setValue(1)
+                except Exception as e:
+                    print(e)
+                    msg_box_2 = QtWidgets.QMessageBox()
+                    msg_box_2.setIcon(QtWidgets.QMessageBox.Critical)
+                    msg_box_2.setText("Error Checking Bundle")
+                    msg_box_2.setInformativeText("Please Check the entered details.")
+                    msg_box_2.setStandardButtons(
+                        QtWidgets.QMessageBox.Ok
+                    )
+                    msg_box_2.exec_()
             else:
                 self.showMessage(
                     QMessageBox.Warning, "Please Enter details in all fields", "Error"
@@ -463,12 +475,6 @@ class Ui_AddBundleDetails(object):
         bundlesMulti = self.sbBundleMulti.value()
         remarks = self.pteRemarks.toPlainText()
 
-        id = self.generate_custom_bundle_id(
-            qp_series=qpSeries,
-            qp_code=qpCode,
-            college_code=self.dbops.getCollegeByName(clgName).code,
-            received_date=self.deBundleSlipDate.date().toPyDate(),
-        )
 
         if len(qpCode) > 4:
             remarks = remarks + " (SLCM Bundle)"
@@ -480,6 +486,13 @@ class Ui_AddBundleDetails(object):
 
         i = 1
         while i <= bundlesMulti:
+            id = self.generate_custom_bundle_id(
+                qp_series=qpSeries,
+                qp_code=qpCode,
+                college_code=self.dbops.getCollegeByName(clgName).code,
+                received_date=self.deBundleSlipDate.date().toPyDate(),
+            )
+            print(id)
             rowPosition = self.twBundleDetails.rowCount()
 
             self.twBundleDetails.setRowCount(rowPosition + 1)
@@ -514,7 +527,7 @@ class Ui_AddBundleDetails(object):
         self, qp_series, qp_code, college_code, received_date
     ):
         entry_time = datetime.now()
-        date_of_entry_and_time = entry_time.strftime("%Y%m%d%H%M")
+        date_of_entry_and_time = entry_time.strftime("%Y%m%d%H%M%S%f")
 
         received_date_str = received_date.strftime("%Y%m%d")
         bundle_id = f"{qp_series}-{qp_code}-{college_code}-{received_date_str}-{date_of_entry_and_time}"

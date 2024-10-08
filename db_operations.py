@@ -18,7 +18,7 @@ class DbOps:
         self.session = Session()
 
     def getCollegesByRoute(self, route_name):
-        colleges = self.session.query(College).filter(College.route == route_name).all()
+        colleges = self.session.query(College).filter(College.route == route_name).filter(College.college_type!="DEPARTMENT").order_by(College.name.asc()).all()
         return colleges
 
     def getCollegeNameByCode(self, code):
@@ -143,7 +143,7 @@ class DbOps:
 
         query = self.session.query(Bundle)
 
-        query = query.filter(or_(*conditions))
+        query = query.filter(or_(*conditions)).order_by(Bundle.id.asc())
 
         # Get the query statement
         statement = query.statement
