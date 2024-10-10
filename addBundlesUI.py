@@ -459,12 +459,16 @@ class Ui_AddBundleDetails(object):
         messengers = self.dbops.getMessengers()
         otherDatas = self.dbops.getOtherData()
 
-        for messenger in messengers:
-            self.cbMessenger.addItem(messenger.name)
+        try:
 
-        for otherData in otherDatas:
-            self.cbQpSeries.addItems(otherData.qp_series)
-            self.cbRouteList.addItems(otherData.routes)
+            for messenger in messengers:
+                self.cbMessenger.addItem(messenger.name)
+
+            for otherData in otherDatas:
+                self.cbQpSeries.addItems(otherData.qp_series)
+                self.cbRouteList.addItems(otherData.routes)
+        finally:
+            self.dbops.close()
 
     def addDataToTable(self):
         qpSeries = self.cbQpSeries.currentText()
