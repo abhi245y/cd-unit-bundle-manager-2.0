@@ -20,86 +20,218 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QWidget" name="widget" native="true">
-          <layout class="QVBoxLayout" name="verticalLayout_2">
-           <item>
-            <widget class="QComboBox" name="courseCB">
-             <property name="placeholderText">
-              <string>Select Course</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QComboBox" name="collegeTypeCB">
-             <property name="placeholderText">
-              <string>Select College Type</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QComboBox" name="routeCB">
-             <property name="placeholderText">
-              <string>Select Route</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout">
-             <item>
-              <widget class="QPushButton" name="searchPB">
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tabWidgetPage1">
+           <attribute name="title">
+            <string>View/Edit College Details </string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QGridLayout" name="gridLayout">
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <item row="2" column="2">
+               <widget class="QCheckBox" name="routeIncludeRB">
+                <property name="text">
+                 <string>Include This</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QCheckBox" name="courseIncludeRB">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Include This</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QComboBox" name="collegeTypeCB">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="placeholderText">
+                 <string>Select College Type</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QComboBox" name="routeCB">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="placeholderText">
+                 <string>Select Route</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QComboBox" name="courseCB">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="placeholderText">
+                 <string>Select Course</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QCheckBox" name="collegeTypeIncludeRB">
+                <property name="text">
+                 <string>Include This</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QPushButton" name="searchPB">
+                <property name="text">
+                 <string>Search</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="getALLPB">
+                <property name="text">
+                 <string>Get All Colleges</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="addNewPB">
+                <property name="text">
+                 <string>Add New</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QTableWidget" name="collegeDataTable">
+              <column>
                <property name="text">
-                <string>Search</string>
+                <string>College Name</string>
                </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="getALLPB">
+              </column>
+              <column>
                <property name="text">
-                <string>Get All Colleges</string>
+                <string>Code</string>
                </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="addNewPB">
+              </column>
+              <column>
                <property name="text">
-                <string>Add New</string>
+                <string>College Type</string>
                </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QTableWidget" name="tableWidget">
-             <column>
-              <property name="text">
-               <string>College Name</string>
+              </column>
+              <column>
+               <property name="text">
+                <string>Route</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Courses</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <property name="topMargin">
+               <number>0</number>
               </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>Code</string>
+              <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="text">
+                 <string>Delete Selected Colleges</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="savePB">
+                <property name="text">
+                 <string>Save Changes</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_5">
+           <attribute name="title">
+            <string>View/Edit Other Data</string>
+           </attribute>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QPushButton" name="viewAllMessengersPB">
+                <property name="text">
+                 <string>View All Messengers</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="viewAllCoursesPB">
+                <property name="text">
+                 <string>View Courses</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="viewAllRoutesPB">
+                <property name="text">
+                 <string>View All Routes</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="viewAllQPSeriesPB">
+                <property name="text">
+                 <string>View All QP Series</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QTableWidget" name="otherDataTablePB">
+              <property name="contextMenuPolicy">
+               <enum>Qt::CustomContextMenu</enum>
               </property>
-             </column>
-             <column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="otherDataSavePB">
               <property name="text">
-               <string>College Type</string>
+               <string>Save Changes</string>
               </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>Courses</string>
-              </property>
-             </column>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="savePB">
-             <property name="text">
-              <string>Save Changes</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </widget>
         </item>
        </layout>
@@ -119,6 +251,18 @@
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdd_Item">
+   <property name="text">
+    <string>Add Item</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;svg fill=&quot;#000000&quot; version=&quot;1.1&quot; id=&quot;Capa_1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;800px&quot; height=&quot;800px&quot; viewBox=&quot;0 0 45.402 45.402&quot; xml:space=&quot;preserve&quot;&gt;
+&lt;g&gt;
+	&lt;path d=&quot;M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141   c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27   c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435   c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z&quot;/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;&lt;p&gt;Add Item&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

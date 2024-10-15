@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker, selectinload
 from sqlalchemy.exc import SQLAlchemyError
 from functools import wraps
-from database_setup import engine, College, Messengers, OtherData, Bundle
+from database_setup import engine, Course,course_college_association, College, Messengers, OtherData, Bundle
 from datetime import date
 from sqlalchemy import and_, or_
 from sqlalchemy.dialects import mysql
@@ -45,6 +45,20 @@ class DbOps:
     @db_operation
     def getCollegeByName(self, name):
         return self.session.query(College).filter(College.name == name).first()
+
+    @db_operation
+    def getAllColleges(self):
+        return self.session.query(College).order_by(College.name.asc(), College.college_type.asc(), College.route.asc()).all()
+
+    @db_operation
+    def getCoursesByCollegeCode(self, college_code):
+        return self.session.query(Course).join(course_college_association).filter(
+                course_college_association.c.college_code == college_code
+            ).order_by(Course.name.asc()).all()
+
+    @db_operation
+    def getAllCourses(self):
+        return self.session.query(Course).order_by(Course.name.asc()).all()
 
     @db_operation
     def isBundlePresent(self, query):
@@ -100,6 +114,23 @@ class DbOps:
     @db_operation
     def getOtherData(self):
         return self.session.query(OtherData).all()
+
+    @db_operation
+    def serachColleges(self, include_course,include_college_type,include_route,
+        selected_course,selected_college_type,selected_route):
+
+        conditions = []
+        if include_college_type:
+            conditions.append(and_(College.college_type == selected_college_type.name))
+
+        if include_route:
+            conditions.append(and_(College.route == selected_route))
+
+        query = self.session.query(College).filter(and_(*conditions)).order_by(College.name.asc(), College.college_type.asc())
+        statement = query.statement
+        sql = statement.compile(dialect=mysql.dialect(), compile_kwargs={"literal_binds": True})
+        pprint(f"SQL Query: {str(sql)}")
+        return query.all()
 
     @db_operation
     def searchBundles(self, entryDate, received_date, received_date_check, date_of_entry_check):
@@ -185,6 +216,6 @@ class DbOps:
         except Exception as e:
             print(f"Error in execute_custom: {str(e)}")
             return None
-            
+
     def close(self):
         self.close_session()

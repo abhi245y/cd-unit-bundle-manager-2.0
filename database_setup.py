@@ -104,7 +104,6 @@ class Course(Base):
     def __repr__(self):
         return f"<Course(code='{self.code}', name='{self.name}')>"
 
-
 class Messengers(Base):
     __tablename__ = "messengers"
     id = Column(Integer, primary_key=True)

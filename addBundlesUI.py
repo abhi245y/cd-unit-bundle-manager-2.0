@@ -268,8 +268,8 @@ class Ui_AddBundleDetails(object):
                     if matching_item.route != self.cbRouteList.currentText():
                         self.showMessage(
                             QtWidgets.QMessageBox.Warning,
-                            "The selected college name is not included in {} Route. Please check the Route before saving.".format(
-                                self.cbRouteList.currentText()
+                            f"The selected college name is not included in {self.cbRouteList.currentText()} Route but is part of '{matching_item.route}' . Please check the Route before saving.".format(
+
                             ),
                         )
                 else:
