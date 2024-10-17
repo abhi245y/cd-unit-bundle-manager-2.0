@@ -126,12 +126,12 @@ class Ui_CollegeBrowserUI(object):
         self.viewAllQPSeriesPB.setObjectName("viewAllQPSeriesPB")
         self.horizontalLayout_4.addWidget(self.viewAllQPSeriesPB)
         self.verticalLayout_3.addLayout(self.horizontalLayout_4)
-        self.otherDataTablePB = QtWidgets.QTableWidget(parent=self.tab_5)
-        self.otherDataTablePB.setContextMenuPolicy(QtCore.Qt.ContextMenuPolicy.CustomContextMenu)
-        self.otherDataTablePB.setObjectName("otherDataTablePB")
-        self.otherDataTablePB.setColumnCount(0)
-        self.otherDataTablePB.setRowCount(0)
-        self.verticalLayout_3.addWidget(self.otherDataTablePB)
+        self.otherDataTable = QtWidgets.QTableWidget(parent=self.tab_5)
+        self.otherDataTable.setContextMenuPolicy(QtCore.Qt.ContextMenuPolicy.CustomContextMenu)
+        self.otherDataTable.setObjectName("otherDataTable")
+        self.otherDataTable.setColumnCount(0)
+        self.otherDataTable.setRowCount(0)
+        self.verticalLayout_3.addWidget(self.otherDataTable)
         self.otherDataSavePB = QtWidgets.QPushButton(parent=self.tab_5)
         self.otherDataSavePB.setObjectName("otherDataSavePB")
         self.verticalLayout_3.addWidget(self.otherDataSavePB)
@@ -151,7 +151,7 @@ class Ui_CollegeBrowserUI(object):
         self.actionAdd_Item.setObjectName("actionAdd_Item")
 
         self.retranslateUi(CollegeBrowserUI)
-        self.tabWidget.setCurrentIndex(0)
+        self.tabWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(CollegeBrowserUI)
 
     def retranslateUi(self, CollegeBrowserUI):

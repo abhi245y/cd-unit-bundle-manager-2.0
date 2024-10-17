@@ -57,6 +57,10 @@ class DbOps:
             ).order_by(Course.name.asc()).all()
 
     @db_operation
+    def getCourseByCourseName(self, course_name):
+        return self.session.query(Course).filter(Course.name == course_name).first()
+
+    @db_operation
     def getAllCourses(self):
         return self.session.query(Course).order_by(Course.name.asc()).all()
 
@@ -170,7 +174,7 @@ class DbOps:
         if not conditions:
             raise ValueError("At least one filter must be provided.")
 
-        query = self.session.query(Bundle).filter(or_(*conditions)).order_by(Bundle.id.asc())
+        query = self.session.query(Bundle).filter(and_(*conditions)).order_by(Bundle.id.asc())
 
         statement = query.statement
         sql = statement.compile(dialect=mysql.dialect(), compile_kwargs={"literal_binds": True})
@@ -202,6 +206,27 @@ class DbOps:
                             bundle.college_code = college.code
                     elif column == 7:
                         bundle.remarks = new_value
+
+    @db_operation
+    def add_new_college(self, college_data):
+        college = College(code=college_data.code, name=college_data.name, route=college_data.route)
+
+        for course_code in college_data.courses:
+            course = self.session.query(Course).filter_by(code=course_code).first()
+            if not course:
+                print('Course Not Found')
+            college.courses.append(course)
+
+        self.session.add(college)
+
+    @db_operation
+    def delete_data(self, table_name, data):
+        if table_name == "college":
+            self.session.query(College).filter(College.code == data).delete()
+        elif table_name == "course":
+            self.session.query(Course).filter(Course.code == data).delete()
+        elif table_name == "messenger":
+            self.session.query(Messengers).filter(Messengers.name == data).delete()
 
     @db_operation
     def delete_bundle(self, bundle_id):

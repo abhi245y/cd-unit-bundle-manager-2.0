@@ -22,7 +22,7 @@
         <item>
          <widget class="QTabWidget" name="tabWidget">
           <property name="currentIndex">
-           <number>0</number>
+           <number>1</number>
           </property>
           <widget class="QWidget" name="tabWidgetPage1">
            <attribute name="title">
@@ -217,7 +217,7 @@
              </layout>
             </item>
             <item>
-             <widget class="QTableWidget" name="otherDataTablePB">
+             <widget class="QTableWidget" name="otherDataTable">
               <property name="contextMenuPolicy">
                <enum>Qt::CustomContextMenu</enum>
               </property>
