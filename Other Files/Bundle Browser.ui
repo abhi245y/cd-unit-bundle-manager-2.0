@@ -50,8 +50,8 @@
                </property>
                <property name="maximumDateTime">
                 <datetime>
-                 <hour>12</hour>
-                 <minute>59</minute>
+                 <hour>7</hour>
+                 <minute>29</minute>
                  <second>59</second>
                  <year>9999</year>
                  <month>12</month>
@@ -409,13 +409,6 @@
                 </property>
                </widget>
               </item>
-              <item>
-               <widget class="QRadioButton" name="matchMessengerRB">
-                <property name="text">
-                 <string>Should Match</string>
-                </property>
-               </widget>
-              </item>
              </layout>
             </widget>
            </item>
@@ -441,13 +434,6 @@
                 </property>
                 <property name="placeholderText">
                  <string>Enter QP Code</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QRadioButton" name="matchQPRB">
-                <property name="text">
-                 <string>Should Match</string>
                 </property>
                </widget>
               </item>
@@ -494,13 +480,6 @@
                 <string>Colleges</string>
                </property>
               </column>
-             </widget>
-            </item>
-            <item>
-             <widget class="QRadioButton" name="matchCollegeRB">
-              <property name="text">
-               <string>Should Match</string>
-              </property>
              </widget>
             </item>
            </layout>

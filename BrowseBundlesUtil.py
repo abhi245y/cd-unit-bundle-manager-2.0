@@ -1,11 +1,35 @@
 import sys
 from PyQt6 import QtWidgets, QtCore
-from PyQt6.QtGui import QPen
-from PyQt6.QtWidgets import QMessageBox
+from PyQt6.QtWidgets import QMessageBox, QProgressDialog
 from BundleBrowserUI import Ui_BundleBrowser
 from db_operations import DbOps
 from pprint import pprint
 from dateutil import parser
+from PyQt6.QtCore import QThread, pyqtSignal
+
+
+class SearchWorker(QThread):
+    finished = pyqtSignal(list)
+
+    def __init__(self, db, populateTable, search_params, search_mode):
+        super().__init__()
+        self.db = db
+        self.mode = search_mode
+        self.populateTable = populateTable
+        self.search_params = search_params
+        self.result = None
+
+    def run(self):
+        if self.mode == "Normal":
+            self.result = self.db.searchBundles(**self.search_params)
+        elif self.mode == "Advanced":
+            self.result = self.db.adv_search(**self.search_params)
+
+        if len(self.result) != 0:
+            self.populateTable(self.result)
+        else:
+            print("No Result Found")
+        self.finished.emit(self.result)
 
 
 class BundleBrowserApp(QtWidgets.QMainWindow):
@@ -18,6 +42,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         self.db = DbOps()
         self.populateComboBoxes()
         self.changed_items = {}
+        self.search_worker = None
 
     def configUI(self):
         self.ui.advancedSearchGroupBox.hide()
@@ -92,7 +117,6 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             self.ui.routeCB.addItems(otherData.routes)
 
     def populateTable(self, datas):
-        self.ui.tableWidget.blockSignals(True)
         self.ui.tableWidget.setRowCount(0)
         for data in datas:
             id = data.id
@@ -133,7 +157,6 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
                 rowPosition, 7, QtWidgets.QTableWidgetItem(remarks)
             )
             self.ui.tableWidget.setItem(rowPosition, 8, QtWidgets.QTableWidgetItem(id))
-        self.ui.tableWidget.blockSignals(False)
 
     def showHideAdvSeach(self):
         if self.ui.advancedSearchGroupBox.isVisible():
@@ -173,30 +196,83 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             print("No Result Found")
         self.populateTable(result)
 
+    # def startSearch(self):
+    #     entryDateFrom = self.ui.entryFromDateEdit.date().toPyDate()
+    #     entryDateTo = self.ui.entryToDateEdit.date().toPyDate()
+    #     received_date_from = self.ui.receviedFromDateEdit.date().toPyDate()
+    #     received_date_to = self.ui.receivedToDateEdit.date().toPyDate()
+
+    #     print(self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked())
+    #     if (
+    #         not self.ui.receviedDateRB.isChecked()
+    #         and not self.ui.entryDateRB.isChecked()
+    #     ):
+    #         print("Select at least one date")
+    #     else:
+    #         result = self.db.searchBundles(
+    #             entryDateFrom,
+    #             entryDateTo,
+    #             received_date_from,
+    #             received_date_to,
+    #             self.ui.receviedDateRB.isChecked(),
+    #             self.ui.entryDateRB.isChecked(),
+    #         )
+    #         if len(result) == 0:
+    #             print("No Result Found")
+    #         self.populateTable(result)
+
     def startSearch(self):
+        self.ui.tableWidget.clearContents()
         entryDateFrom = self.ui.entryFromDateEdit.date().toPyDate()
         entryDateTo = self.ui.entryToDateEdit.date().toPyDate()
         received_date_from = self.ui.receviedFromDateEdit.date().toPyDate()
         received_date_to = self.ui.receivedToDateEdit.date().toPyDate()
 
-        print(self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked())
         if (
             not self.ui.receviedDateRB.isChecked()
             and not self.ui.entryDateRB.isChecked()
         ):
             print("Select at least one date")
-        else:
-            result = self.db.searchBundles(
-                entryDateFrom,
-                entryDateTo,
-                received_date_from,
-                received_date_to,
-                self.ui.receviedDateRB.isChecked(),
-                self.ui.entryDateRB.isChecked(),
-            )
-            if len(result) == 0:
-                print("No Result Found")
-            self.populateTable(result)
+            return
+
+        search_params = {
+            "entryDateFrom": entryDateFrom,
+            "entryDateTo": entryDateTo,
+            "received_date_from": received_date_from,
+            "received_date_to": received_date_to,
+            "received_date_check": self.ui.receviedDateRB.isChecked(),
+            "date_of_entry_check": self.ui.entryDateRB.isChecked(),
+        }
+        self.ui.tableWidget.blockSignals(True)
+        self.ui.tableWidget.setVisible(False)
+        self.progress_dialog = QProgressDialog("Searching...", "Cancel", 0, 0, self)
+        self.progress_dialog.setWindowModality(QtCore.Qt.WindowModality.WindowModal)
+        self.progress_dialog.setAutoClose(True)
+        self.progress_dialog.canceled.connect(self.cancelSearch)
+
+        self.search_worker = SearchWorker(
+            self.db, self.populateTable, search_params, "Normal"
+        )
+        self.search_worker.finished.connect(self.searchFinished)
+
+        self.search_worker.start()
+        self.progress_dialog.show()
+
+    def cancelSearch(self):
+        if self.search_worker and self.search_worker.isRunning():
+            self.search_worker.terminate()
+            self.search_worker.wait()
+            self.search_worker = None
+
+    def searchFinished(self, result):
+        self.search_worker.quit()
+        self.search_worker.wait()
+        self.progress_dialog.close()
+        self.ui.tableWidget.blockSignals(False)
+        self.ui.tableWidget.setVisible(True)
+        if len(result) == 0:
+            QMessageBox.warning(self, "Warnning", "No Bundles Found")
+        self.search_worker = None
 
     def on_route_selected(self):
         selected_route = self.ui.routeCB.currentText()
@@ -230,28 +306,37 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         date_of_entry = self.ui.entryFromDateEdit.date().toPyDate()
         received_date = self.ui.receviedFromDateEdit.date().toPyDate()
 
-        # pprint(f'{messenger, qp_code_input, college_code, date_of_entry, received_date, self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked()}')
-        res = self.db.adv_search(
-            messenger=messenger,
-            qp_code_input=qp_code_input,
-            college_code=college_code,
-            date_of_entry=date_of_entry,
-            received_date=received_date,
-            received_date_check=self.ui.receviedDateRB.isChecked(),
-            date_of_entry_check=self.ui.entryDateRB.isChecked(),
-        )
+        search_params = {
+            "messenger": messenger,
+            "qp_code_input": qp_code_input,
+            "college_code": college_code,
+            "date_of_entry": date_of_entry,
+            "received_date": received_date,
+            "received_date_check": self.ui.receviedDateRB.isChecked(),
+            "date_of_entry_check": self.ui.entryDateRB.isChecked(),
+        }
+        self.ui.tableWidget.blockSignals(True)
+        self.ui.tableWidget.setVisible(False)
+        self.progress_dialog = QProgressDialog("Searching...", "Cancel", 0, 0, self)
+        self.progress_dialog.setWindowModality(QtCore.Qt.WindowModality.WindowModal)
+        self.progress_dialog.setAutoClose(True)
+        self.progress_dialog.canceled.connect(self.cancelSearch)
 
-        self.populateTable(res)
+        self.search_worker = SearchWorker(
+            self.db, self.populateTable, search_params, "Advanced"
+        )
+        self.search_worker.finished.connect(self.searchFinished)
+
+        self.search_worker.start()
+        self.progress_dialog.show()
 
     def track_changes(self, item):
         row = item.row()
         column = item.column()
         new_value = item.text()
 
-        # Get the ID for the row, assuming ID is in the last column (column index 8)
         bundle_id = self.ui.tableWidget.item(row, 8).text()
         if bundle_id:
-            # Track the change in the form of {row: {column: value}}
             if bundle_id not in self.changed_items:
                 self.changed_items[bundle_id] = {}
 

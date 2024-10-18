@@ -176,13 +176,11 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
 
     def startButtonCreationThread(self, rows_count):
         self.button_thread = ButtonCreationThread(rows_count)
-        self.button_thread.buttonCreated.connect(
-            self.addButtonToTable
-        )  # Connect to main UI thread
+        self.button_thread.buttonCreated.connect(self.addButtonToTable)
         self.button_thread.start()
 
     def addButtonToTable(self, row):
-        button = QtWidgets.QPushButton(f"Show Courses")
+        button = QtWidgets.QPushButton("Show Courses")
         self.ui.collegeDataTable.setCellWidget(row, 3, button)
         button.clicked.connect(lambda: self.handleButtonClicked(row))
 
