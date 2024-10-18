@@ -2,7 +2,7 @@ import sys
 from PyQt6 import QtWidgets, QtCore
 from PyQt6.QtGui import QPen
 from PyQt6.QtWidgets import QMessageBox
-from BundleBrowserUI import Ui_BundleBrowser  # Import the generated UI class
+from BundleBrowserUI import Ui_BundleBrowser
 from db_operations import DbOps
 from pprint import pprint
 from dateutil import parser
@@ -21,8 +21,13 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
 
     def configUI(self):
         self.ui.advancedSearchGroupBox.hide()
-        self.ui.entryDateEdit.setDateTime(QtCore.QDateTime.currentDateTime())
-        self.ui.receviedDateEdit.setMinimumDate(QtCore.QDate(2024, 9, 14))
+        self.ui.entryFromDateEdit.setDateTime(QtCore.QDateTime.currentDateTime())
+        self.ui.entryToDateEdit.setDateTime(QtCore.QDateTime.currentDateTime())
+        self.ui.receviedFromDateEdit.setDateTime(
+            QtCore.QDateTime.currentDateTime().addDays(-2)
+        )
+        self.ui.receivedToDateEdit.setDateTime(QtCore.QDateTime.currentDateTime())
+
         self.ui.tableWidget.setColumnHidden(8, True)
 
         collegeTableHeader = self.ui.colegeTableWidget.horizontalHeader()
@@ -57,8 +62,6 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         )
 
     def connectSignals(self):
-        # Connect signals to interact with the UI elements as needed
-        # For example, a button click can trigger a function
         self.ui.showAdvancedPB.clicked.connect(self.showHideAdvSeach)
         self.ui.searchPB.clicked.connect(self.startSearch)
         self.ui.routeCB.currentIndexChanged.connect(self.on_route_selected)
@@ -69,7 +72,8 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         self.ui.deletePB.clicked.connect(self.delete_selected_items)
         self.ui.actionShow_ID.triggered.connect(self.toggle_id_column)
         self.ui.aiSearchPB.clicked.connect(self.attemptAISearch)
-        pass
+        self.ui.fetchEnteredPB.clicked.connect(self.fetchRecentEntered)
+        self.ui.fetchReceivedPB.clicked.connect(self.fetchRecentReceived)
 
     def mousePressEvent(self, event):
         clicked_widget = self.childAt(event.position().toPoint())
@@ -78,9 +82,6 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         super().mousePressEvent(event)
 
     def populateComboBoxes(self):
-        # Populating routeComboBox, messengerComboBox, and collegeComboBox from the database
-        # self.cursor.execute("SELECT route_name FROM routes")
-
         messengers = self.db.getMessengers()
         otherDatas = self.db.getOtherData()
 
@@ -89,27 +90,6 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
 
         for otherData in otherDatas:
             self.ui.routeCB.addItems(otherData.routes)
-
-        # for college in colleges:
-        #     self.ui.collegeComboBox.addItem(college[0])
-
-    def setDateEdit(self, date):
-        # Sets the dateEdit widget to a specific date
-        self.ui.dateEdit.setDate(date)
-
-    # def collectUserInput(self):
-    #     # Collect data from the UI elements and update the database
-    #     selected_date = self.ui.dateEdit.date().toString("yyyy-MM-dd")
-    #     selected_route = self.ui.routeComboBox.currentText()
-    #     selected_messenger = self.ui.messengerComboBox.currentText()
-    #     selected_college = self.ui.collegeComboBox.currentText()
-
-    # Example of updating the database with collected data
-
-    # def closeEvent(self, event):
-    #     # Close the database connection when the window is closed
-    #     self.conn.close()
-    #     event.accept()
 
     def populateTable(self, datas):
         self.ui.tableWidget.blockSignals(True)
@@ -167,9 +147,38 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
         self.ui.messengersCB.setCurrentIndex(-1)
         self.ui.qpCodeLineEdit.clear()
 
+    def fetchRecentEntered(self):
+        entryDate = QtCore.QDateTime.currentDateTime().toPyDateTime().date()
+        result = self.db.fetchRecentBundles(
+            entryDate,
+            None,
+            False,
+            True,
+        )
+        if len(result) == 0:
+            print("No Result Found")
+        self.populateTable(result)
+
+    def fetchRecentReceived(self):
+        receivedDate = (
+            QtCore.QDateTime.currentDateTime().addDays(-2).toPyDateTime().date()
+        )
+        result = self.db.fetchRecentBundles(
+            None,
+            receivedDate,
+            True,
+            False,
+        )
+        if len(result) == 0:
+            print("No Result Found")
+        self.populateTable(result)
+
     def startSearch(self):
-        entryDate = self.ui.entryDateEdit.date().toPyDate()
-        received_date = self.ui.receviedDateEdit.date().toPyDate()
+        entryDateFrom = self.ui.entryFromDateEdit.date().toPyDate()
+        entryDateTo = self.ui.entryToDateEdit.date().toPyDate()
+        received_date_from = self.ui.receviedFromDateEdit.date().toPyDate()
+        received_date_to = self.ui.receivedToDateEdit.date().toPyDate()
+
         print(self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked())
         if (
             not self.ui.receviedDateRB.isChecked()
@@ -178,11 +187,15 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             print("Select at least one date")
         else:
             result = self.db.searchBundles(
-                entryDate,
-                received_date,
+                entryDateFrom,
+                entryDateTo,
+                received_date_from,
+                received_date_to,
                 self.ui.receviedDateRB.isChecked(),
                 self.ui.entryDateRB.isChecked(),
             )
+            if len(result) == 0:
+                print("No Result Found")
             self.populateTable(result)
 
     def on_route_selected(self):
@@ -214,21 +227,21 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             if self.ui.colegeTableWidget.currentItem()
             else None
         )
-        date_of_entry = self.ui.entryDateEdit.date().toPyDate()
-        received_date = self.ui.receviedDateEdit.date().toPyDate()
+        date_of_entry = self.ui.entryFromDateEdit.date().toPyDate()
+        received_date = self.ui.receviedFromDateEdit.date().toPyDate()
 
         # pprint(f'{messenger, qp_code_input, college_code, date_of_entry, received_date, self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked()}')
-        self.populateTable(
-            self.db.adv_search(
-                messenger=messenger,
-                qp_code_input=qp_code_input,
-                college_code=college_code,
-                date_of_entry=date_of_entry,
-                received_date=received_date,
-                received_date_check=self.ui.receviedDateRB.isChecked(),
-                date_of_entry_check=self.ui.entryDateRB.isChecked(),
-            )
+        res = self.db.adv_search(
+            messenger=messenger,
+            qp_code_input=qp_code_input,
+            college_code=college_code,
+            date_of_entry=date_of_entry,
+            received_date=received_date,
+            received_date_check=self.ui.receviedDateRB.isChecked(),
+            date_of_entry_check=self.ui.entryDateRB.isChecked(),
         )
+
+        self.populateTable(res)
 
     def track_changes(self, item):
         row = item.row()
@@ -314,10 +327,13 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             self.ui.aiSearchPB.setText("Searching...")
             QtCore.QCoreApplication.processEvents()
 
-            result = self.db.execute_custom(user_query=user_query)
+            result, e = self.db.execute_custom(user_query=user_query)
             if result is not None:
-                print(result)
                 self.populateTable(result)
+            elif "Connection error" in str(e):
+                QMessageBox.critical(
+                    self, "No Internet", "Please Check your network connetion"
+                )
 
             self.ui.aiSearchPB.setEnabled(True)
             self.ui.aiSearchPB.setText("AI Search")

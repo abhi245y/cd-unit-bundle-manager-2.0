@@ -1,13 +1,23 @@
 from sqlalchemy.orm import sessionmaker, selectinload
 from sqlalchemy.exc import SQLAlchemyError
 from functools import wraps
-from database_setup import engine, Course,course_college_association, College, Messengers, OtherData, Bundle
+from database_setup import (
+    engine,
+    Course,
+    course_college_association,
+    College,
+    Messengers,
+    OtherData,
+    Bundle,
+)
 from datetime import date
 from sqlalchemy import and_, or_
 from sqlalchemy.dialects import mysql
 from sqlalchemy import text
+from sqlalchemy import func, cast, Integer
 from pprint import pprint
 import ai_search
+
 
 class DbOps:
     def __init__(self):
@@ -32,11 +42,18 @@ class DbOps:
                 self.session.rollback()
                 print(f"Error in {func.__name__}: {str(e)}")
                 raise
+
         return wrapper
 
     @db_operation
     def getCollegesByRoute(self, route_name):
-        return self.session.query(College).filter(College.route == route_name).filter(College.college_type != "DEPARTMENT").order_by(College.name.asc()).all()
+        return (
+            self.session.query(College)
+            .filter(College.route == route_name)
+            .filter(College.college_type != "DEPARTMENT")
+            .order_by(College.name.asc())
+            .all()
+        )
 
     @db_operation
     def getCollegeNameByCode(self, code):
@@ -48,13 +65,23 @@ class DbOps:
 
     @db_operation
     def getAllColleges(self):
-        return self.session.query(College).order_by(College.name.asc(), College.college_type.asc(), College.route.asc()).all()
+        return (
+            self.session.query(College)
+            .order_by(
+                College.name.asc(), College.college_type.asc(), College.route.asc()
+            )
+            .all()
+        )
 
     @db_operation
     def getCoursesByCollegeCode(self, college_code):
-        return self.session.query(Course).join(course_college_association).filter(
-                course_college_association.c.college_code == college_code
-            ).order_by(Course.name.asc()).all()
+        return (
+            self.session.query(Course)
+            .join(course_college_association)
+            .filter(course_college_association.c.college_code == college_code)
+            .order_by(Course.name.asc())
+            .all()
+        )
 
     @db_operation
     def getCourseByCourseName(self, course_name):
@@ -73,7 +100,9 @@ class DbOps:
             .filter(Bundle.is_nill == query["isNil"])
             .filter(Bundle.received_date == query["receivedDate"])
             .filter(Bundle.messenger_name == query["messenger"])
-            .filter(Bundle.college_code == self.getCollegeByName(query["collegeName"]).code)
+            .filter(
+                Bundle.college_code == self.getCollegeByName(query["collegeName"]).code
+            )
             .count()
         )
         return bundle_count > 0
@@ -86,7 +115,7 @@ class DbOps:
         for data in finalData:
             try:
                 new_bundle = Bundle(
-                    id=data['id'],
+                    id=data["id"],
                     date_of_entry=date.today(),
                     qp_series=data["qpSeries"],
                     qp_code=data["qpCode"],
@@ -107,22 +136,36 @@ class DbOps:
         if success_count == len(finalData):
             return True, "All bundles saved successfully."
         elif success_count > 0:
-            return True, f"Saved {success_count} out of {len(finalData)} bundles. Errors: {'; '.join(error_messages)}"
+            return (
+                True,
+                f"Saved {success_count} out of {len(finalData)} bundles. Errors: {'; '.join(error_messages)}",
+            )
         else:
-            return False, f"Failed to save any bundles. Errors: {'; '.join(error_messages)}"
+            return (
+                False,
+                f"Failed to save any bundles. Errors: {'; '.join(error_messages)}",
+            )
 
     @db_operation
     def getMessengers(self):
-        return self.session.query(Messengers).options(selectinload('*')).all()
+        return self.session.query(Messengers).options(selectinload("*")).all()
 
     @db_operation
     def getOtherData(self):
         return self.session.query(OtherData).all()
 
     @db_operation
-    def serachColleges(self, include_course,include_college_type,include_route,
-        selected_course,selected_college_type,selected_route):
-
+    def serachColleges(
+        self,
+        include_course,
+        include_college_type,
+        include_route,
+        include_college_code,
+        selected_course,
+        selected_college_type,
+        selected_route,
+        college_code,
+    ):
         conditions = []
         if include_college_type:
             conditions.append(and_(College.college_type == selected_college_type.name))
@@ -130,25 +173,76 @@ class DbOps:
         if include_route:
             conditions.append(and_(College.route == selected_route))
 
-        query = self.session.query(College).filter(and_(*conditions)).order_by(College.name.asc(), College.college_type.asc())
+        if include_college_code:
+            conditions.append(and_(College.code == int(college_code)))
+
+        query = (
+            self.session.query(College)
+            .filter(and_(*conditions))
+            .order_by(College.name.asc(), College.college_type.asc())
+        )
         statement = query.statement
-        sql = statement.compile(dialect=mysql.dialect(), compile_kwargs={"literal_binds": True})
+        sql = statement.compile(
+            dialect=mysql.dialect(), compile_kwargs={"literal_binds": True}
+        )
         pprint(f"SQL Query: {str(sql)}")
         return query.all()
 
     @db_operation
-    def searchBundles(self, entryDate, received_date, received_date_check, date_of_entry_check):
+    def fetchRecentBundles(
+        self, entryDate, received_date, received_date_check, date_of_entry_check
+    ):
         query = self.session.query(Bundle)
-        if received_date_check and date_of_entry_check:
-            query = query.filter(and_(Bundle.received_date == received_date, Bundle.date_of_entry == entryDate))
-        elif received_date_check:
-            query = query.filter(Bundle.received_date == received_date)
+        if received_date_check:
+            query = query.filter(Bundle.received_date >= received_date)
         elif date_of_entry_check:
-            query = query.filter(Bundle.date_of_entry == entryDate)
-        return query.all()
+            query = query.filter(Bundle.date_of_entry >= entryDate)
+
+        return query.order_by(
+            cast(func.substring_index(Bundle.id, "-", -1), Integer)
+        ).all()
 
     @db_operation
-    def adv_search(self, messenger=None, qp_code_input=None, college_code=None, date_of_entry=None, received_date=None, received_date_check=False, date_of_entry_check=False):
+    def searchBundles(
+        self,
+        entryDateFrom,
+        entryDateTo,
+        received_date_from,
+        received_date_to,
+        received_date_check,
+        date_of_entry_check,
+    ):
+        query = self.session.query(Bundle)
+        if received_date_check and date_of_entry_check:
+            query = query.filter(
+                and_(
+                    Bundle.received_date == received_date_from,
+                    Bundle.date_of_entry == entryDateFrom,
+                )
+            )
+        elif received_date_check:
+            query = query.filter(
+                Bundle.received_date.between(received_date_from, received_date_to)
+            )
+        elif date_of_entry_check:
+            query = query.filter(
+                Bundle.date_of_entry.between(entryDateFrom, entryDateTo)
+            )
+        return query.order_by(
+            cast(func.substring_index(Bundle.id, "-", -1), Integer)
+        ).all()
+
+    @db_operation
+    def adv_search(
+        self,
+        messenger=None,
+        qp_code_input=None,
+        college_code=None,
+        date_of_entry=None,
+        received_date=None,
+        received_date_check=False,
+        date_of_entry_check=False,
+    ):
         conditions = []
 
         if messenger:
@@ -157,15 +251,24 @@ class DbOps:
         if qp_code_input:
             try:
                 qp_series, qp_code = qp_code_input.split(" ", 1)
-                conditions.append(and_(Bundle.qp_series == qp_series, Bundle.qp_code == qp_code))
+                conditions.append(
+                    and_(Bundle.qp_series == qp_series, Bundle.qp_code == qp_code)
+                )
             except ValueError:
-                raise ValueError("QP Code input must be in the format 'Series Code' (e.g., 'T 5467').")
+                raise ValueError(
+                    "QP Code input must be in the format 'Series Code' (e.g., 'T 5467')."
+                )
 
         if college_code:
             conditions.append(Bundle.college_code == college_code)
 
         if received_date_check and date_of_entry_check:
-            conditions.append(and_(Bundle.received_date == received_date, Bundle.date_of_entry == date_of_entry))
+            conditions.append(
+                and_(
+                    Bundle.received_date == received_date,
+                    Bundle.date_of_entry == date_of_entry,
+                )
+            )
         elif received_date_check:
             conditions.append(Bundle.received_date == received_date)
         elif date_of_entry_check:
@@ -174,13 +277,21 @@ class DbOps:
         if not conditions:
             raise ValueError("At least one filter must be provided.")
 
-        query = self.session.query(Bundle).filter(and_(*conditions)).order_by(Bundle.id.asc())
+        query = (
+            self.session.query(Bundle)
+            .filter(and_(*conditions))
+            .order_by(Bundle.id.asc())
+        )
 
         statement = query.statement
-        sql = statement.compile(dialect=mysql.dialect(), compile_kwargs={"literal_binds": True})
+        sql = statement.compile(
+            dialect=mysql.dialect(), compile_kwargs={"literal_binds": True}
+        )
         pprint(f"SQL Query: {str(sql)}")
 
-        return query.all()
+        return query.order_by(
+            cast(func.substring_index(Bundle.id, "-", -1), Integer)
+        ).all()
 
     @db_operation
     def save_changes_to_db(self, new_data):
@@ -209,12 +320,14 @@ class DbOps:
 
     @db_operation
     def add_new_college(self, college_data):
-        college = College(code=college_data.code, name=college_data.name, route=college_data.route)
+        college = College(
+            code=college_data.code, name=college_data.name, route=college_data.route
+        )
 
         for course_code in college_data.courses:
             course = self.session.query(Course).filter_by(code=course_code).first()
             if not course:
-                print('Course Not Found')
+                print("Course Not Found")
             college.courses.append(course)
 
         self.session.add(college)
@@ -237,10 +350,15 @@ class DbOps:
     def execute_custom(self, user_query):
         try:
             query = ai_search.generate_sql_query(user_input=user_query)
-            return self.session.query(Bundle).from_statement(text(query)).all()
+            return (
+                self.session.query(Bundle)
+                .from_statement(text(query))
+                .order_by(cast(func.substring_index(Bundle.id, "-", -1), Integer))
+                .all()
+            ), "sucess"
         except Exception as e:
             print(f"Error in execute_custom: {str(e)}")
-            return None
+            return None, e
 
     def close(self):
         self.close_session()

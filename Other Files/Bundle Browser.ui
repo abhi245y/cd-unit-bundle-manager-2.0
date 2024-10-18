@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>search.png</normaloff>search.png</iconset>
+    <normaloff>../../../../.designer/backup/search.png</normaloff>../../../../.designer/backup/search.png</iconset>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::Rounded</enum>
@@ -50,8 +50,8 @@
                </property>
                <property name="maximumDateTime">
                 <datetime>
-                 <hour>18</hour>
-                 <minute>29</minute>
+                 <hour>12</hour>
+                 <minute>59</minute>
                  <second>59</second>
                  <year>9999</year>
                  <month>12</month>
@@ -237,16 +237,16 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QPushButton" name="matchAnyFilterPB">
+         <widget class="QPushButton" name="fetchReceivedPB">
           <property name="text">
-           <string>Match Any </string>
+           <string>Fetch Recently Entered Bundles </string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="matchAllFilterPB">
+         <widget class="QPushButton" name="fetchEnteredPB">
           <property name="text">
-           <string>Match All</string>
+           <string>Fetch Recently Received Bundles</string>
           </property>
          </widget>
         </item>
@@ -296,7 +296,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>loupe.png</normaloff>loupe.png</iconset>
+            <normaloff>../../../../.designer/backup/loupe.png</normaloff>../../../../.designer/backup/loupe.png</iconset>
           </property>
           <property name="iconSize">
            <size>

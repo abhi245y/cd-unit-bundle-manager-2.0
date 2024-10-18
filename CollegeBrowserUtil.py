@@ -7,6 +7,7 @@ from db_operations import DbOps
 from PyQt6.QtCore import QThread, pyqtSignal
 from types import SimpleNamespace
 
+
 class ButtonCreationThread(QThread):
     buttonCreated = pyqtSignal(int)
 
@@ -50,7 +51,7 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
         self.ui.courseCB.setEnabled(False)
         self.ui.collegeTypeCB.setEnabled(False)
         self.ui.routeCB.setEnabled(False)
-
+        self.ui.collegeCodelineEdit.setEnabled(False)
 
     def connectSignals(self):
         self.ui.getALLPB.clicked.connect(self.getAllColleges)
@@ -58,6 +59,7 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
         self.ui.courseIncludeRB.toggled.connect(self.on_radio_button_toggled)
         self.ui.collegeTypeIncludeRB.toggled.connect(self.on_radio_button_toggled)
         self.ui.routeIncludeRB.toggled.connect(self.on_radio_button_toggled)
+        self.ui.collegCodeIncludeCheckBox.toggled.connect(self.on_radio_button_toggled)
         self.ui.addNewPB.clicked.connect(self.showAddNewCollegeDialog)
         self.ui.viewAllCoursesPB.clicked.connect(self.viewCourses)
         self.ui.viewAllMessengersPB.clicked.connect(self.viewMessengers)
@@ -67,6 +69,9 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
         self.ui.courseCB.setEnabled(self.ui.courseIncludeRB.isChecked())
         self.ui.collegeTypeCB.setEnabled(self.ui.collegeTypeIncludeRB.isChecked())
         self.ui.routeCB.setEnabled(self.ui.routeIncludeRB.isChecked())
+        self.ui.collegeCodelineEdit.setEnabled(
+            self.ui.collegCodeIncludeCheckBox.isChecked()
+        )
 
     def showAddNewCollegeDialog(self):
         dialog = QtWidgets.QDialog(self)
@@ -79,21 +84,21 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
         dialog.exec()
 
     def populateAddNewCollegeDialog(self, ui):
-            otherDatas = self.db.getOtherData()
-            for otherData in otherDatas:
-                ui.routeCB.addItems(otherData.routes)
-            from database_setup import CollegeType as college_type
-            for type in college_type:
-                ui.collgeTypeCB.addItem(type.value, type)
-            courses = self.db.getAllCourses()
-            for course in courses:
-                item = QtWidgets.QListWidgetItem(course.name)
-                item.setFlags(item.flags() | QtCore.Qt.ItemFlag.ItemIsUserCheckable)
-                item.setCheckState(QtCore.Qt.CheckState.Unchecked)
-                ui.courseList.addItem(item)
+        otherDatas = self.db.getOtherData()
+        for otherData in otherDatas:
+            ui.routeCB.addItems(otherData.routes)
+        from database_setup import CollegeType as college_type
+
+        for type in college_type:
+            ui.collgeTypeCB.addItem(type.value, type)
+        courses = self.db.getAllCourses()
+        for course in courses:
+            item = QtWidgets.QListWidgetItem(course.name)
+            item.setFlags(item.flags() | QtCore.Qt.ItemFlag.ItemIsUserCheckable)
+            item.setCheckState(QtCore.Qt.CheckState.Unchecked)
+            ui.courseList.addItem(item)
 
     def addNewCollege(self, ui, dialog):
-
         college_code = ui.collegeCodeLE.text()
         college_name = ui.collegeNameLE.text()
         selected_route = ui.routeCB.currentText()
@@ -106,16 +111,24 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
                 course_code = self.db.getCourseByCourseName(item.text()).code
                 selected_courses_code.append(course_code)
         # print(college_code, college_name, route, college_type,selected_courses_code)
-        college_data = SimpleNamespace(code=college_code, name=college_name, route=selected_route,
-            type=college_type, courses=selected_courses_code)
+        college_data = SimpleNamespace(
+            code=college_code,
+            name=college_name,
+            route=selected_route,
+            type=college_type,
+            courses=selected_courses_code,
+        )
         success = self.db.add_new_college(college_data)
         if success:
-            QtWidgets.QMessageBox.information(self, "Success", "New college added successfully!")
+            QtWidgets.QMessageBox.information(
+                self, "Success", "New college added successfully!"
+            )
             dialog.accept()
             self.getAllColleges()
         else:
-            QtWidgets.QMessageBox.warning(self, "Error", "Failed to add new college. Please try again.")
-
+            QtWidgets.QMessageBox.warning(
+                self, "Error", "Failed to add new college. Please try again."
+            )
 
     def populateComboBoxes(self):
         from database_setup import CollegeType as college_type
@@ -140,7 +153,9 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
             rowPosition = self.ui.collegeDataTable.rowCount()
             clg_name = data.name
             clg_code = data.code
-            clg_type = data.college_type.value if data.college_type is not None else "Pending"
+            clg_type = (
+                data.college_type.value if data.college_type is not None else "Pending"
+            )
             clg_route = data.route if data.route is not None else "Pending"
 
             self.ui.collegeDataTable.insertRow(rowPosition)
@@ -161,7 +176,9 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
 
     def startButtonCreationThread(self, rows_count):
         self.button_thread = ButtonCreationThread(rows_count)
-        self.button_thread.buttonCreated.connect(self.addButtonToTable)  # Connect to main UI thread
+        self.button_thread.buttonCreated.connect(
+            self.addButtonToTable
+        )  # Connect to main UI thread
         self.button_thread.start()
 
     def addButtonToTable(self, row):
@@ -193,7 +210,9 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
         print(datas[0])
         self.ui.otherDataTable.clearContents()
         self.ui.otherDataTable.setRowCount(0)
-        column_names = [key for key in vars(datas[0]).keys() if not key.startswith('_sa')]
+        column_names = [
+            key for key in vars(datas[0]).keys() if not key.startswith("_sa")
+        ]
         # print(column_names)
         self.ui.otherDataTable.setColumnCount(len(column_names))
         self.ui.otherDataTable.setHorizontalHeaderLabels(column_names)
@@ -207,7 +226,9 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
                     cell_value = "N/A"
                 else:
                     cell_value = str(cell_value)
-                self.ui.otherDataTable.setItem(row_idx, col_idx, QtWidgets.QTableWidgetItem(cell_value))
+                self.ui.otherDataTable.setItem(
+                    row_idx, col_idx, QtWidgets.QTableWidgetItem(cell_value)
+                )
         self.ui.otherDataTable.resizeColumnsToContents()
 
     def viewCourses(self):
@@ -226,18 +247,30 @@ class CollegeBrowserApp(QtWidgets.QMainWindow):
         inlcude_course = self.ui.courseIncludeRB.isChecked()
         include_college_type = self.ui.collegeTypeIncludeRB.isChecked()
         include_route = self.ui.routeIncludeRB.isChecked()
+        include_colleg_code = self.ui.collegCodeIncludeCheckBox.isChecked()
 
-        if inlcude_course or include_college_type or include_route:
-            result = self.db.serachColleges(inlcude_course,include_college_type,include_route,
-                self.ui.courseCB.currentText(),self.ui.collegeTypeCB.currentData(),
-                self.ui.routeCB.currentText())
+        if (
+            inlcude_course
+            or include_college_type
+            or include_route
+            or include_colleg_code
+        ):
+            result = self.db.serachColleges(
+                inlcude_course,
+                include_college_type,
+                include_route,
+                include_colleg_code,
+                self.ui.courseCB.currentText(),
+                self.ui.collegeTypeCB.currentData(),
+                self.ui.routeCB.currentText(),
+                self.ui.collegeCodelineEdit.text(),
+            )
 
             self.populateCollegeTable(result)
         else:
             QtWidgets.QMessageBox.warning(
                 self, "No Filter Selected", "Please select at least one filter"
             )
-
 
 
 if __name__ == "__main__":

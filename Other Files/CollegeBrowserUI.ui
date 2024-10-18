@@ -22,7 +22,7 @@
         <item>
          <widget class="QTabWidget" name="tabWidget">
           <property name="currentIndex">
-           <number>1</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="tabWidgetPage1">
            <attribute name="title">
@@ -54,6 +54,33 @@
                 </property>
                </widget>
               </item>
+              <item row="3" column="0">
+               <widget class="QLineEdit" name="collegeCodelineEdit">
+                <property name="placeholderText">
+                 <string>Enter College Code</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QComboBox" name="courseCB">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="placeholderText">
+                 <string>Select Course</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QCheckBox" name="collegeTypeIncludeRB">
+                <property name="text">
+                 <string>Include This</string>
+                </property>
+               </widget>
+              </item>
               <item row="1" column="0">
                <widget class="QComboBox" name="collegeTypeCB">
                 <property name="sizePolicy">
@@ -80,21 +107,8 @@
                 </property>
                </widget>
               </item>
-              <item row="0" column="0">
-               <widget class="QComboBox" name="courseCB">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="placeholderText">
-                 <string>Select Course</string>
-                </property>
-               </widget>
-              </item>
-              <item row="1" column="2">
-               <widget class="QCheckBox" name="collegeTypeIncludeRB">
+              <item row="3" column="2">
+               <widget class="QCheckBox" name="collegCodeIncludeCheckBox">
                 <property name="text">
                  <string>Include This</string>
                 </property>
