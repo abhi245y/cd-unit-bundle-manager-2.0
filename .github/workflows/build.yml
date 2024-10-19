@@ -49,21 +49,17 @@ jobs:
           chmod +x dist/Add\ bundles
           chmod +x dist/College\ Browser
 
-      - name: Create GitHub Release
-        id: create_release
-        uses: shogo82148/actions-create-release@v1
+      - name: Upload to GitHub Release
+        uses: svenstaro/upload-release-action@v2
         with:
-          tag_name: "v2.0.4"
-          release_name: "CD Unit Bundles Manager v2.0"
-          body: "Prod release"
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
+          file: dist/*
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: |
+            Production Release
           draft: false
           prerelease: false
-
-      - name: Upload Release Assets
-        uses: shogo82148/actions-upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: |
-            dist/Bundle\ Browser
-            dist/Add\ bundles
-            dist/College\ Browser
+          make_latest: true
+          release_name: "v2.0 Prod release"
