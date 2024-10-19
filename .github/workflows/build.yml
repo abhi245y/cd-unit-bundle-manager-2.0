@@ -1,0 +1,53 @@
+name: Build Executable
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9.6"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            libgl1-mesa-glx \
+            libglib2.0-0 \
+            libgtk-3-0 \
+            qt6-default \
+            qt6-tools-dev \
+            qt6-tools-dev-tools \
+            python3-pyqt6 \
+            python3-pyqt5 \
+            python3-pyqt5.qtsvg \
+            python3-pyqt6.qtsvg \
+            python3-pyqt5.qtwebengine \
+            python3-pyqt6.qtwebengine
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build executable
+        run: |
+          pyinstaller --onefile --windowed --icon=search.png -n 'Bundle Browser' --add-data="search.png:." BrowseBundlesUtil.py -y
+
+      - name: Upload executable
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bundle Browser
+          path: dist/Bundle\ Browser
