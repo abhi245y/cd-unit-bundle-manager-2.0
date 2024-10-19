@@ -24,6 +24,8 @@ class SearchWorker(QThread):
             self.result = self.db.searchBundles(**self.search_params)
         elif self.mode == "Advanced":
             self.result = self.db.adv_search(**self.search_params)
+        elif self.mode == "fecthRecent":
+            self.result = self.db.fetchRecentBundles(**self.search_params)
 
         if len(self.result) != 0:
             self.populateTable(self.result)
@@ -88,7 +90,7 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
 
     def connectSignals(self):
         self.ui.showAdvancedPB.clicked.connect(self.showHideAdvSeach)
-        self.ui.searchPB.clicked.connect(self.startSearch)
+        self.ui.searchPB.clicked.connect(self.normal_search)
         self.ui.routeCB.currentIndexChanged.connect(self.on_route_selected)
         self.ui.advancedsearchPB.clicked.connect(self.advanced_search)
         self.ui.clearPB.clicked.connect(self.clearFilter)
@@ -172,57 +174,44 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
 
     def fetchRecentEntered(self):
         entryDate = QtCore.QDateTime.currentDateTime().toPyDateTime().date()
-        result = self.db.fetchRecentBundles(
-            entryDate,
-            None,
-            False,
-            True,
-        )
-        if len(result) == 0:
-            print("No Result Found")
-        self.populateTable(result)
+        search_parms = {
+            "entryDate": entryDate,
+            "received_date": None,
+            "received_date_check": False,
+            "date_of_entry_check": True,
+        }
+        self.start_search_thread(search_parms, "fecthRecent")
 
     def fetchRecentReceived(self):
         receivedDate = (
             QtCore.QDateTime.currentDateTime().addDays(-2).toPyDateTime().date()
         )
-        result = self.db.fetchRecentBundles(
-            None,
-            receivedDate,
-            True,
-            False,
-        )
-        if len(result) == 0:
-            print("No Result Found")
-        self.populateTable(result)
+        search_parms = {
+            "entryDate": None,
+            "received_date": receivedDate,
+            "received_date_check": True,
+            "date_of_entry_check": False,
+        }
+        self.start_search_thread(search_parms, "fecthRecent")
 
-    # def startSearch(self):
-    #     entryDateFrom = self.ui.entryFromDateEdit.date().toPyDate()
-    #     entryDateTo = self.ui.entryToDateEdit.date().toPyDate()
-    #     received_date_from = self.ui.receviedFromDateEdit.date().toPyDate()
-    #     received_date_to = self.ui.receivedToDateEdit.date().toPyDate()
-
-    #     print(self.ui.receviedDateRB.isChecked(), self.ui.entryDateRB.isChecked())
-    #     if (
-    #         not self.ui.receviedDateRB.isChecked()
-    #         and not self.ui.entryDateRB.isChecked()
-    #     ):
-    #         print("Select at least one date")
-    #     else:
-    #         result = self.db.searchBundles(
-    #             entryDateFrom,
-    #             entryDateTo,
-    #             received_date_from,
-    #             received_date_to,
-    #             self.ui.receviedDateRB.isChecked(),
-    #             self.ui.entryDateRB.isChecked(),
-    #         )
-    #         if len(result) == 0:
-    #             print("No Result Found")
-    #         self.populateTable(result)
-
-    def startSearch(self):
+    def start_search_thread(self, search_params, mode):
         self.ui.tableWidget.clearContents()
+        self.ui.tableWidget.blockSignals(True)
+        self.ui.tableWidget.setVisible(False)
+        self.progress_dialog = QProgressDialog("Searching...", "Cancel", 0, 0, self)
+        self.progress_dialog.setWindowModality(QtCore.Qt.WindowModality.WindowModal)
+        self.progress_dialog.setAutoClose(True)
+        self.progress_dialog.canceled.connect(self.cancelSearch)
+
+        self.search_worker = SearchWorker(
+            self.db, self.populateTable, search_params, mode
+        )
+        self.search_worker.finished.connect(self.searchFinished)
+
+        self.search_worker.start()
+        self.progress_dialog.show()
+
+    def normal_search(self):
         entryDateFrom = self.ui.entryFromDateEdit.date().toPyDate()
         entryDateTo = self.ui.entryToDateEdit.date().toPyDate()
         received_date_from = self.ui.receviedFromDateEdit.date().toPyDate()
@@ -243,26 +232,15 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             "received_date_check": self.ui.receviedDateRB.isChecked(),
             "date_of_entry_check": self.ui.entryDateRB.isChecked(),
         }
-        self.ui.tableWidget.blockSignals(True)
-        self.ui.tableWidget.setVisible(False)
-        self.progress_dialog = QProgressDialog("Searching...", "Cancel", 0, 0, self)
-        self.progress_dialog.setWindowModality(QtCore.Qt.WindowModality.WindowModal)
-        self.progress_dialog.setAutoClose(True)
-        self.progress_dialog.canceled.connect(self.cancelSearch)
-
-        self.search_worker = SearchWorker(
-            self.db, self.populateTable, search_params, "Normal"
-        )
-        self.search_worker.finished.connect(self.searchFinished)
-
-        self.search_worker.start()
-        self.progress_dialog.show()
+        self.start_search_thread(search_params, "Normal")
 
     def cancelSearch(self):
         if self.search_worker and self.search_worker.isRunning():
             self.search_worker.terminate()
             self.search_worker.wait()
             self.search_worker = None
+            self.ui.tableWidget.blockSignals(False)
+            self.ui.tableWidget.setVisible(True)
 
     def searchFinished(self, result):
         self.search_worker.quit()
@@ -315,20 +293,8 @@ class BundleBrowserApp(QtWidgets.QMainWindow):
             "received_date_check": self.ui.receviedDateRB.isChecked(),
             "date_of_entry_check": self.ui.entryDateRB.isChecked(),
         }
-        self.ui.tableWidget.blockSignals(True)
-        self.ui.tableWidget.setVisible(False)
-        self.progress_dialog = QProgressDialog("Searching...", "Cancel", 0, 0, self)
-        self.progress_dialog.setWindowModality(QtCore.Qt.WindowModality.WindowModal)
-        self.progress_dialog.setAutoClose(True)
-        self.progress_dialog.canceled.connect(self.cancelSearch)
 
-        self.search_worker = SearchWorker(
-            self.db, self.populateTable, search_params, "Advanced"
-        )
-        self.search_worker.finished.connect(self.searchFinished)
-
-        self.search_worker.start()
-        self.progress_dialog.show()
+        self.start_search_thread(search_params, "Advanced")
 
     def track_changes(self, item):
         row = item.row()

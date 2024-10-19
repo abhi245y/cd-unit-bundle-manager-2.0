@@ -14,9 +14,10 @@ from datetime import date
 from sqlalchemy import and_, or_
 from sqlalchemy.dialects import mysql
 from sqlalchemy import text
-from sqlalchemy import func, cast, Integer
+from sqlalchemy import func, cast, desc
 from pprint import pprint
 import ai_search
+from sqlalchemy.sql.expression import literal
 
 
 class DbOps:
@@ -198,9 +199,9 @@ class DbOps:
         elif date_of_entry_check:
             query = query.filter(Bundle.date_of_entry >= entryDate)
 
-        return query.order_by(
-            cast(func.substring_index(Bundle.id, "-", -1), Integer)
-        ).all()
+        timestamp_part = func.substring_index(Bundle.id, literal("-"), -1)
+
+        return query.order_by(desc(timestamp_part)).all()
 
     @db_operation
     def searchBundles(
@@ -228,9 +229,10 @@ class DbOps:
             query = query.filter(
                 Bundle.date_of_entry.between(entryDateFrom, entryDateTo)
             )
-        return query.order_by(
-            cast(func.substring_index(Bundle.id, "-", -1), Integer)
-        ).all()
+
+        timestamp_part = func.substring_index(Bundle.id, literal("-"), -1)
+
+        return query.order_by(desc(timestamp_part)).all()
 
     @db_operation
     def adv_search(
@@ -289,9 +291,9 @@ class DbOps:
         )
         pprint(f"SQL Query: {str(sql)}")
 
-        return query.order_by(
-            cast(func.substring_index(Bundle.id, "-", -1), Integer)
-        ).all()
+        timestamp_part = func.substring_index(Bundle.id, literal("-"), -1)
+
+        return query.order_by(desc(timestamp_part)).all()
 
     @db_operation
     def save_changes_to_db(self, new_data):
@@ -350,12 +352,14 @@ class DbOps:
     def execute_custom(self, user_query):
         try:
             query = ai_search.generate_sql_query(user_input=user_query)
+            timestamp_part = func.substring_index(Bundle.id, literal("-"), -1)
+
             return (
                 self.session.query(Bundle)
                 .from_statement(text(query))
-                .order_by(cast(func.substring_index(Bundle.id, "-", -1), Integer))
+                .order_by(desc(timestamp_part))
                 .all()
-            ), "sucess"
+            ), "success"
         except Exception as e:
             print(f"Error in execute_custom: {str(e)}")
             return None, e
